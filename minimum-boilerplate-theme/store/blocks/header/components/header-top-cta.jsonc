@@ -1,0 +1,51 @@
+{
+  "flex-layout.row#header__header--top": {
+    "title": "Header top",
+    "children": [
+      "flex-layout.col#header__top--left",
+      "flex-layout.col#header__top--right"
+    ],
+    "props": {
+      "blockClass": "header__top",
+      "fullWidth": true
+    }
+  },
+    "flex-layout.col#header__top--left": {
+      "title": "Header__top--left-text",
+      "children": [
+        "rich-text#header__top--left-text"
+      ],
+      "props": {
+        "blockClass": "header__top--left-text"
+      }
+    },
+    "rich-text#header__top--left-text": {
+      "title": "Left-text",
+      "props": {
+        "blockClass": "left-text",
+        "text": "Hola! [Queremos saber ¿Quien Eres?](www.google.com)",
+        "textAlignment": "CENTER",
+        "textPosition": "LEFT"
+      }
+    },
+    "flex-layout.col#header__top--right": {
+      "title": "Header__top--right-text",
+      "children": [
+        "rich-text#header__top--right-text"
+      ],
+      "props": {
+        "blockClass": "header__top-right-container"
+      }
+    },
+    "rich-text#header__top--right-text": {
+      "title": "Right-text",
+      "props": {
+        "blockClass": "right-text",
+        "text": "Blog La Rebaja",
+        "textAlignment": "CENTER",
+        "textPosition": "RIGHT"
+      }
+    }
+  
+}
+
