@@ -1,0 +1,8 @@
+{
+  "notification.bar#header__banner": {
+    "props":{
+      "content": "#Hola! [Queremos saber ¿Quien Eres?](www.google.com)"
+    }
+  }
+}
+

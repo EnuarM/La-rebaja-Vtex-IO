@@ -1,0 +1,37 @@
+.sliderLayoutContainer--home__slider {
+    overflow: visible;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.paginationDot {
+    width    : 12px !important;
+    min-width: 12px !important;
+    height   : 12px !important;
+}
+
+.sliderArrows--home__slider {
+    color           : red;
+    width           : 35px;
+    height          : 35px;
+    background-color: #fff !important;
+    border-radius   : 50%;
+    box-shadow      : 0 5px 5px rgb(0 0 0 / 25%);
+    overflow        : hidden;
+    padding         : 0;
+}
+
+.imageElement--home__slider{
+    max-height: 420px;
+}
+
+.sliderTrack--home__slider{
+    width: 2700%;
+}
+
+.sliderRightArrow--home__slider{
+    right: 620px;
+}
+.sliderLeftArrow--home__slider{
+    left: 620px;
+}

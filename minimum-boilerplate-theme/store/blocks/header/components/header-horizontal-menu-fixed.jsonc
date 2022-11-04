@@ -1,0 +1,99 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#blog", 
+      "menu-item#super-ofertas",
+      "menu-item#panini",
+      "menu-item#para-niñ@s",
+      "menu-item#merca-express",
+      "menu-item#un-look-genial"
+
+    ]
+  },
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "blog",
+        "text": "Blog💥"
+      }
+    }
+  },
+  "menu-item#super-ofertas": {
+    "props": {
+      "id": "menu-item-super-ofertas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "super-ofertas",
+        "text": "Super Ofertas 🚨"
+      }
+    }
+  },
+  "menu-item#panini": {
+    "props": {
+      "id": "menu-item-super-panini",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "panini",
+        "text": "Panini ⚽"
+      }
+    }
+  },
+  "menu-item#para-niñ@s": {
+    "props": {
+      "id": "menu-item-para-niñ@s",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "para-niñ@s",
+        "text": "Para niñ@s🥳"
+      }
+    }
+  },
+  "menu-item#merca-express": {
+    "props": {
+      "id": "menu-item-merca-express",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "merca-express",
+        "text": "Merca Express 🥫🍫"
+      }
+    }
+  },
+  "menu-item#un-look-genial": {
+    "props": {
+      "id": "menu-item-un-look-genial",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "un-look-genial",
+        "text": "Un look genial💅🏼💇🏼‍♀️"
+      }
+    }
+  }
+  
+}
+

@@ -1,0 +1,15 @@
+{
+  "responsive-layout.desktop#home__banner--cta": {
+    "title": "Banner cta offers",
+    "children": ["image#banner__cta"]
+  },
+  "image#banner__cta": {
+    "title": "Image banner cta offers",
+    "props": {
+      "src": "https://itgloberspartnercl.vteximg.com.br/arquivos/responsive-banner.jpg",
+      "maxHeight": 100,
+      "title": "Image cta",
+      "blockClass": "banner__cta"
+    }
+  }
+}

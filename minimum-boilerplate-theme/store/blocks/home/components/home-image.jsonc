@@ -1,0 +1,11 @@
+{
+  "image#prueba": {
+    "title": "Imagen de prueba",
+    "props": {
+      "src": "assets/img/prueba.jpg",
+      "maxHeight": 600,
+      "title": "Info medicamnetos",
+      "blockClass": "home__image"
+    }
+  }
+}

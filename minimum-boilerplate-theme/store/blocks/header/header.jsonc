@@ -1,0 +1,111 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "title": "Header desktop",
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "notification.bar#header__banner",
+      // "flex-layout.row#header__banner-cta",
+      "flex-layout.row#desktop",
+      "vtex.menu@2.x:menu#websites"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "drawer#menu-desktop",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "login"
+    ]
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": "Mi cuenta"
+    }
+  },
+  "drawer#menu-desktop": {
+    "children": [
+      "menu#drawer-desktop"
+    ]
+  },
+  "menu#drawer-desktop": {
+    "children": [],
+    "props": {
+      "orientation": "vertical",
+      "verticalAlign": "middle"
+    }
+  },  
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow" // Este width maneja el spacer
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/logo-larebaja.png",
+      "width": "150"
+    }
+  },
+  //AQUI COMIENZA EL HEADER PARA MOBILE
+  "header-layout.mobile": {
+    "title": "Header mobile",
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer#mobile",
+      "logo",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer#mobile": {
+    "children": [
+      "menu#drawer-mobile"
+    ]
+  },  
+  "menu#drawer-mobile": {
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

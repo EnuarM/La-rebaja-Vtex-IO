@@ -1,0 +1,14 @@
+//Rich text titulo 1 - Categorias destacadas
+{
+    "rich-text#home--title__one": {
+        "title": "Titulo 1",
+        "props": {
+            "text": "Categorías destacadas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-2"
+        }
+    }
+}
+
+//Rich text titulo 2 - Súper Descuentos

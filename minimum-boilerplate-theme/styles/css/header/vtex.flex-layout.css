@@ -1,0 +1,11 @@
+.flexRow--header__banner {
+    background-image : url(assets/img/section-one-bg.jpg);
+    background-size  : cover;
+    background-repeat: no-repeat;
+    height           : 45px;
+    width            : 100%;
+}
+
+.paragraph--section__one--title {
+    color: white !important;
+}
