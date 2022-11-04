@@ -2,8 +2,8 @@
   "image#prueba": {
     "title": "Imagen de prueba",
     "props": {
-      "src": "assets/img/prueba.jpg",
-      "maxHeight": 600,
+      "src": "assets/img/hogar.svg",
+      "maxHeight": 150,
       "title": "Info medicamnetos",
       "blockClass": "home__image"
     }

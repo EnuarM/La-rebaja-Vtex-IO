@@ -1,5 +1,5 @@
 {
-  "vtex.menu@2.x:menu#websites": {
+  "vtex.menu@2.x:menu#websheader__fixed-menu": {
     "children": [
       "menu-item#blog", 
       "menu-item#super-ofertas",

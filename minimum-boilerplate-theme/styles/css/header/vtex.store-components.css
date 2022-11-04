@@ -1,21 +1,12 @@
-.notificationBarInner {
-    background-image   : url(assets/img/section-one-bg.jpg);
-    background-size    : cover;
-    background-repeat  : no-repeat;
-    display            : flex;
-    align-items        : center;
-    justify-content    : center;
-    background-position: 50%;
-    min-height         : 40px;
-}
-
-.notificationContent {
-    font-size  : 14px;
-    font-weight: 500;
-    color      : white;
-    margin-left: 20px;
-}
-
 .imageElement--home__slider {
     width: 200px;
+}
+
+.imageElement--home__image{
+    filter:grayscale(100%);
+}
+
+.imageElement--home__image:hover {
+    filter:grayscale(0);
+    cursor: pointer;
 }
