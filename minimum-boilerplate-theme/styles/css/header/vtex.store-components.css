@@ -2,11 +2,11 @@
     width: 200px;
 }
 
-.imageElement--home__image{
+.imageElement--icon-image{
     filter:grayscale(100%);
 }
 
-.imageElement--home__image:hover {
+.imageElement--icon-image:hover {
     filter:grayscale(0);
     cursor: pointer;
 }
