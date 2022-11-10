@@ -1,5 +1,6 @@
 {
-  "vtex.menu@2.x:menu#websheader__fixed-menu": {
+  "vtex.menu@2.x:menu#header__fixed-menu": {
+    "title": "Header bottom",
     "children": [
       "menu-item#blog", 
       "menu-item#super-ofertas",

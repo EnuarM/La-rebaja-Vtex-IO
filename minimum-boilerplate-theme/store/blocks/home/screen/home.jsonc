@@ -4,7 +4,8 @@
       "responsive-layout.desktop#home__banner--cta",
       "list-context.image-list#home__slider--list",
       "rich-text#home--title__one",
-      "list-context.image-list#home__icon-slider"
+      "list-context.image-list#home__icon-slider",
+      "rich-text#home--two"
     ]
   }  
 }

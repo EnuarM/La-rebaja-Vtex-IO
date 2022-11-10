@@ -11,3 +11,19 @@
     min-height: 40px;
 }
 
+.flexColChild--minicart__empty--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRow--minicart__empty--message{
+    width: 85%;
+    max-width: 400px;
+    min-width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

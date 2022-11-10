@@ -1,0 +1,6 @@
+.imageElement--empty-image{
+    align-items: center;
+    width: 80px;
+    max-height: 80px;
+    margin-bottom: 20px;
+}

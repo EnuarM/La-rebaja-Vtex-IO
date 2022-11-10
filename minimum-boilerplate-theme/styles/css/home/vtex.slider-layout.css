@@ -15,7 +15,8 @@
 }
 
 .sliderTrack--home__slider {
-    width: 2500% !important;
+    transform: translate3d(-94.4444%, 0px, 0px);
+    width: 1800%;
 }
 
 .paginationDot {
