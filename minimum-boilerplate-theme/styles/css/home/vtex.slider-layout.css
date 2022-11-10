@@ -14,10 +14,10 @@
     overflow : visible !important;
 }
 
-.sliderTrack--home__slider {
+/* .sliderTrack--home__slider {
     transform: translate3d(-94.4444%, 0px, 0px);
     width: 1800%;
-}
+} */
 
 .paginationDot {
     width    : 12px !important;

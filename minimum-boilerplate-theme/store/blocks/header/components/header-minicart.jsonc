@@ -3,7 +3,6 @@
     "title": "Minicart",
     "children": ["minicart-base-content"],
     "props": {
-      "blockClass": "minicart",
       "itemCountMode": "total"
     }
   },
