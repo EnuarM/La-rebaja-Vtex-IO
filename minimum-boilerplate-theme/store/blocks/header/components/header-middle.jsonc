@@ -50,5 +50,11 @@
       "url": "assets/img/logo-larebaja.png",
       "width": "150"
     }
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
   }
 }

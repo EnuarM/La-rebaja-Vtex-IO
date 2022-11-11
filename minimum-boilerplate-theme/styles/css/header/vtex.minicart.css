@@ -38,6 +38,6 @@
     align-items: center;
 }
 
-.overlay--minicart {
+.overlay {
     background-color: rgba(0,0,0,.5)!important;
 }
