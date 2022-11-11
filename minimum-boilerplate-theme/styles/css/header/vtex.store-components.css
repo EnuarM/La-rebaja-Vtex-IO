@@ -1,12 +1,6 @@
-.imageElement--home__slider {
-    width: 200px;
-}
-
-.imageElement--home__image{
-    filter:grayscale(100%);
-}
-
-.imageElement--home__image:hover {
-    filter:grayscale(0);
-    cursor: pointer;
+.imageElement--empty-image{
+    align-items: center;
+    width: 80px;
+    max-height: 80px;
+    margin-bottom: 20px;
 }

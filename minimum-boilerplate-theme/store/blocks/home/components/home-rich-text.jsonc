@@ -1,14 +1,22 @@
 //Rich text titulo 1 - Categorias destacadas
 {
-    "rich-text#home--title__one": {
-        "title": "Titulo 1",
-        "props": {
-            "text": "Categorías destacadas",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "t-heading-2"
-        }
+  "rich-text#home--title__one": {
+    "title": "Titulo 1",
+    "props": {
+      "text": "Categorías destacadas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
     }
+  },
+  //Rich text titulo 2 - Súper Descuentos
+  "rich-text#home--two": {
+    "title": "Titulo 2",
+    "props": {
+      "text": "Súper Descuentos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  }
 }
-
-//Rich text titulo 2 - Súper Descuentos
