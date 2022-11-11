@@ -1,5 +1,6 @@
 {
   "flex-layout.row#desktop": {
+    "title": "Header middle",
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -11,7 +12,8 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-      "login"
+      "login",
+      "minicart.v2"
     ]
   },
   "login": {
@@ -47,6 +49,12 @@
       "href": "/",
       "url": "assets/img/logo-larebaja.png",
       "width": "150"
+    }
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
     }
   }
 }

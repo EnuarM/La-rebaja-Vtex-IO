@@ -6,7 +6,7 @@
     "children": [
       "flex-layout.row#header__header--top",
       "flex-layout.row#desktop",
-      "vtex.menu@2.x:menu#websheader__fixed-menu"
+      "vtex.menu@2.x:menu#header__fixed-menu"
     ]
   }
 }
