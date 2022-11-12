@@ -2,6 +2,7 @@
   "flex-layout.row#desktop": {
     "title": "Header middle",
     "props": {
+      "blockClass": "header-middle",
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
