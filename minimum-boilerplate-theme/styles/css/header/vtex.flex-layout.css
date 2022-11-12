@@ -26,4 +26,7 @@
     align-items: center;
 }
 
+.flexRow--header-middle {
+    background-color: white;
+}
 
