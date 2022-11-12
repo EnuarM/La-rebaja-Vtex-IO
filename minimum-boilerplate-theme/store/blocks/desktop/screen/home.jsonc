@@ -6,6 +6,7 @@
       "rich-text#home--title__one",
       "list-context.image-list#home__icon-slider",
       "rich-text#home--two"
+      // "list-context.product-list#demo1"
     ]
   }  
 }

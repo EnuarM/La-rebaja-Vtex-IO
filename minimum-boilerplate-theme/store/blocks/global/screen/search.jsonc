@@ -1,0 +1,111 @@
+{
+  "store.search": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#department": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": ["search-result-layout.desktop", "search-result-layout.mobile", "search-not-found-layout"]
+  },
+  "search-result-layout.desktop": {
+    "children": ["flex-layout.row#breadcrumb", "rich-text#search__categories", "list-context.image-list#home__icon-slider", "flex-layout.row#results"]
+  },
+  "rich-text#search__categories": {
+    "title": "Titulo categorias",
+    "props": {
+      "text": "Compra por categoría",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  "flex-layout.row#breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+  "flex-layout.row#results": {
+    "children": ["filter-navigator.v3", "search-content"]
+  },
+  "filter-navigator.v3": {
+    "props": {
+      "width": "25%"
+    }
+  },
+  "search-content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 3,
+            "phone": 2
+          }
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf"
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-rating-inline",
+      "product-list-price",
+      "product-selling-price",
+      "add-to-cart-button"
+    ]
+  },
+  "product-summary-name": {
+    "props": {
+      "tag":"h3"
+    }
+  },
+  "search-not-found-layout": {}
+}
