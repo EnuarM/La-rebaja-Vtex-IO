@@ -1,0 +1,9 @@
+.containerNormal {
+    max-width: none !important;
+    overflow: initial;
+    margin: auto;
+}
+
+.containerNormal:hover {
+    border: 1px solid grey;
+}

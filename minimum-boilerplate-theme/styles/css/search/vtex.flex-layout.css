@@ -1,0 +1,84 @@
+.flexRow--searchBlock {
+    margin-top  : 60px;
+    max-width   : 1380px;
+    margin-left : auto;
+    margin-right: auto;
+    width       : 100%;
+}
+
+.flexRowContent--orderView {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.flexRowContent--orderView :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: auto !important;
+}
+
+.flexCol--listLayout__addToCart {
+    justify-content: center;
+    gap            : 10px;
+}
+
+.flexCol--listLayout__info :global(.vtex-product-summary-2-x-productBrandContainer){
+    line-height: 28px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.flexCol--listLayout__info :global(.vtex-product-summary-2-x-productBrandName){
+    color: #888;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.flexCol--listLayout__info :global(.vtex-product-summary-2-x-nameContainer){
+    text-align: left;
+    justify-content: left;
+    padding: 24px 0;
+}
+
+.flexCol--listLayout__info :global(.vtex-product-summary-2-x-brandName){
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.flexColChild--listLayout__price :global(.vtex-product-price-1-x-sellingPrice){
+    color: #dd1e2f;
+    font-family: Poppins;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.flexColChild--listLayout__addToCart :global(.vtex-button){
+    width        : 150px;
+    height       : 36px;
+    border-radius: 25px;
+    border       : 1px solid #dd1e2f;
+    background   : transparent;
+    min-height   : 35px;
+    transition   : all .2s ease;
+}
+
+.flexColChild--listLayout__addToCart :global(.vtex-button):hover{
+    width        : 150px;
+    height       : 36px;
+    border-radius: 25px;
+    border       : 1px solid #dd1e2f;
+    background   : #dd1e2f;
+    min-height   : 35px;
+    transition   : all .2s ease;
+}

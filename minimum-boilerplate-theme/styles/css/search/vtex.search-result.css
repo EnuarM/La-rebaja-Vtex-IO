@@ -1,0 +1,134 @@
+.totalProducts--layout {
+    color         : #333;
+    font-size     : 13px;
+    font-weight   : 400;
+    font-style    : normal;
+    letter-spacing: normal;
+    line-height   : 19px;
+    text-align    : right;
+    position      : relative;
+    padding       : 0 10px 0 0;
+    width         : 5px;
+}
+
+.totalProductsMessage {
+    font-size: 0;
+}
+
+.totalProductsMessage::before {
+    font-size     : 0;
+    font-family   : Poppins;
+    content       : "Productos encontrados";
+    color         : #333;
+    font-size     : 13px;
+    font-weight   : 400;
+    font-style    : normal;
+    letter-spacing: normal;
+    line-height   : 19px;
+    text-align    : left;
+    display       : inline-block;
+    text-transform: capitalize;
+}
+
+.totalProductsMessage::after {
+    content   : "";
+    display   : inline-block;
+    width     : 2px;
+    height    : 16px;
+    background: #333;
+    position  : absolute;
+    left      : 100%;
+    top       : 3.5px;
+}
+
+.filterMessage--filters {
+    margin          : 0;
+    display         : flex;
+    align-items     : center;
+    font-size       : 0;
+    background-color: #dd1e2f;
+    height          : 40px;
+    justify-content : center;
+    border-radius   : 20px 20px 0 0;
+}
+
+.filterMessage--filters::before {
+    content     : "";
+    display     : inline-flex;
+    width       : 10px;
+    height      : 10px;
+    background  : url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icon-filter___2f7f0e0….svg);
+    transform   : scale(1.6);
+    margin-right: 10px;
+}
+
+.filterMessage--filters::after {
+    content        : "Filtrar por:";
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    color          : #fff;
+    font-family    : Poppins;
+    font-style     : normal;
+    font-weight    : 600;
+    font-size      : 18px;
+    line-height    : 27px;
+}
+
+.galleryLayoutSwitcher--layoutSwitcher :global(.vtex-search-result-3-x-galleryLayoutSwitcher)::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 16px;
+    background: #333;
+    position: absolute;
+    right: -5px;
+    top: 3.5px;    
+}
+
+
+.galleryLayoutOptionButton--grid {
+    background         : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='76' height='24' viewBox='0 0 76 24'%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M0 0h16v24H0z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M40 0h16v24H40z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M20 0h16v24H20z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M60 0h16v24H60z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    width              : 90px;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-position: 50%;
+    height             : 28px;
+    margin             : 0 15px;
+    padding            : 0;
+}
+
+.galleryLayoutOptionButton--grid--selected {
+    background         : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='76' height='24' viewBox='0 0 76 24'%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23dd1e2f' d='M0 0h16v24H0z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23dd1e2f' d='M40 0h16v24H40z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23dd1e2f' d='M20 0h16v24H20z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23dd1e2f' d='M60 0h16v24H60z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    width              : 90px;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-position: 50%;
+    height             : 28px;
+    margin             : 0 15px;
+    padding            : 0;
+}
+
+.galleryLayoutOptionButton--list {
+    background         : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='24' viewBox='0 0 36 24'%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M0 0h16v10H0z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M20 0h16v3H20z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M20 14h16v3H20z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M20 7h16v3H20z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M20 21h16v3H20z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M0 14h16v10H0z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    margin             : 0;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-position: 50%;
+    width              : 38px;
+    height             : 28px;
+    margin             : 0 15px;
+    padding            : 0;
+}
+
+.galleryLayoutOptionButton--list--selected {
+    background         : url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icon-layout2-red___0757aca68d57b0bdebcfdf94188952a5.svg) !important;
+    margin             : 0 !important;
+    background-size    : cover !important;
+    background-repeat  : no-repeat !important;
+    background-position: 50% !important;
+    width              : 38px !important;
+    height             : 28px !important;
+    margin             : 0 15px !important;
+    padding            : 0 !important;
+}
