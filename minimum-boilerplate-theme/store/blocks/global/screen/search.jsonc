@@ -111,7 +111,9 @@
   },
   "order-by.v2": {
     "props": {
-      "specificationOptions": {}
+      "blockClass": "orderBy--layout",
+      "specificationOptions": {
+      }
     }
   },
   "filter-navigator.v3": {
