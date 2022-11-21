@@ -13,6 +13,7 @@
     text-align : center;
     color      : #1a1919;
     transition : all .3s ease;
+    font-family: Poppins;
     height     : 40px;
     display    : flex;
     align-items: center;

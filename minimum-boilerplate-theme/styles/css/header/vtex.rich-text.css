@@ -12,6 +12,7 @@
 .paragraph--left-text {
     color: white;
     font-size: 14px;
+    font-family: Poppins;
 }
 
 .link--left-text {
@@ -35,6 +36,7 @@
     line-height: 18px;
     text-align: center;
     color: #1a1919;
+    font-family: Poppins;
     
 }
 
