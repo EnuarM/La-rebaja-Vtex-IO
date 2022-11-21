@@ -95,11 +95,26 @@
   "product-summary.shelf#gridLayout": {
     "children": [
       "product-summary-image",
+      "flex-layout.col#spacer",
       "product-summary-brand",
       "product-summary-name",
       "product-selling-price",
-      "add-to-cart-button",
+      "flex-layout.col#gridLayout__addToCart",      
       "modal-trigger#global__quick-view"
-    ]
+    ],
+    "props": {
+      "blockClass": "gridLayout___container"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "blockClass": "spacer"
+    }
+  },
+  "flex-layout.col#gridLayout__addToCart": {
+    "children": ["add-to-cart-button"],
+    "props": {
+      "blockClass": "gridAddToCart"
+    }
   }
 }

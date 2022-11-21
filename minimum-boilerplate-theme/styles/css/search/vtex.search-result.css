@@ -445,3 +445,12 @@
     background: #dd1e2f !important;
     color     : #fff !important;
 }
+
+.gallery {
+    padding-left: 1.5rem;
+}
+
+.galleryItem--grid {
+    padding-left: 6px;
+    padding-right: 6px;
+}

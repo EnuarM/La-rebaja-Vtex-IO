@@ -54,8 +54,6 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#breadcrumb",
-      "rich-text#search__categories",
-      "list-context.image-list#home__icon-slider",
       "flex-layout.row#desktop__search--view"
     ]
   },
