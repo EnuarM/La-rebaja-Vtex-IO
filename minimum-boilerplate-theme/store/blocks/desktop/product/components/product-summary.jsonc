@@ -1,0 +1,90 @@
+{
+  "flex-layout.row#product__layout": {
+    "title": "Product View",
+    "children": ["flex-layout.row#product__info"]
+  },
+  "flex-layout.row#product__info": {
+    "title": "Product summary",
+    "children": [
+      "flex-layout.col#product__images",
+      "flex-layout.col#product__summary"
+    ]
+  },
+  "flex-layout.col#product__images": {
+    "title": "Product images",
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "zoomMode": "in-place-hover",
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#product__summary": {
+    "title": "Product info",
+    "children": [
+      "flex-layout.row#product__brand",
+      "flex-layout.row#product__name",
+      "rich-text#product__quantity",
+      "flex-layout.row#product__name--description",
+      "flex-layout.row#product__price",
+      "flex-layout.row#product__quantity-selector",
+      "flex-layout.row#product__share"
+    ]
+  },
+  "flex-layout.row#product__brand": {
+    "children": ["flex-layout.col#product__brand"]
+  },
+  "flex-layout.col#product__brand": {
+    "children": ["product-brand"]
+  },
+  "flex-layout.row#product__name": {
+    "children": ["flex-layout.col#product__name"]
+  },
+  "flex-layout.col#product__name": {
+    "children": ["product-name"]
+  },
+  "rich-text#product__quantity": {
+    "title": "Quantity",
+    "props": {
+      "text": "Und x 1 und"
+    }
+  },
+  "flex-layout.row#product__name--description": {
+    "children": ["flex-layout.col#product__description"]
+  },
+  "flex-layout.col#product__description": {
+    "children": ["product-description", "product-identifier.product"]
+  },
+  "flex-layout.row#product__price": {
+    "children": ["flex-layout.col#product__price"]
+  },
+  "flex-layout.col#product__price": {
+    "children": ["product-price"]
+  },
+  "flex-layout.row#product__quantity-selector": {
+    "children": [
+      "flex-layout.col#product__quantity--selector",
+      "add-to-cart-button"
+    ]
+  },
+  "flex-layout.col#product__quantity--selector": {
+    "children": ["product-quantity"]
+  },
+  "flex-layout.row#product__share": {
+    "children": ["flex-layout.col#product__share"]
+  },
+  "flex-layout.col#product__share": {
+    "children": ["share"]
+  },
+  "share": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "Twitter": true,
+        "WhatsApp": true,
+        "Pinterest": false
+      }
+    }
+  }
+}
