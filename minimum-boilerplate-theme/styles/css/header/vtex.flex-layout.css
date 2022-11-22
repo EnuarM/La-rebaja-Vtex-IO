@@ -27,6 +27,13 @@
 }
 
 .flexRow--header-middle {
+    max-width: 1380px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 12px;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: space-between;
     background-color: white;
 }
 

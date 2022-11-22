@@ -16,7 +16,8 @@
         "rich-text#header__top--left-text"
       ],
       "props": {
-        "blockClass": "header__top--left-text"
+        "blockClass": "header__top--left-text",
+        "horizontalAlign": "center"
       }
     },
     "rich-text#header__top--left-text": {
@@ -34,7 +35,8 @@
         "rich-text#header__top--right-text"
       ],
       "props": {
-        "blockClass": "header__top-right-container"
+        "blockClass": "header__top-right-container",
+        "horizontalAlign": "center"
       }
     },
     "rich-text#header__top--right-text": {

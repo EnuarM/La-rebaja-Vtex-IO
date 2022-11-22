@@ -60,15 +60,6 @@
   "flex-layout.row#breadcrumb": {
     "children": ["breadcrumb.search"]
   },
-  "rich-text#search__categories": {
-    "title": "Titulo categorias",
-    "props": {
-      "text": "Compra por categoría",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-2"
-    }
-  },
   "flex-layout.row#desktop__search--view": {
     "children": [
       "flex-layout.row#desktop__search--block"

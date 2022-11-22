@@ -95,7 +95,7 @@
   "product-summary.shelf#gridLayout": {
     "children": [
       "product-summary-image",
-      "flex-layout.col#spacer",
+      "flex-layout.col#spacer--summary",
       "product-summary-brand",
       "product-summary-name",
       "product-selling-price",
@@ -106,7 +106,7 @@
       "blockClass": "gridLayout___container"
     }
   },
-  "flex-layout.col#spacer": {
+  "flex-layout.col#spacer--summary": {
     "props": {
       "blockClass": "spacer"
     }
