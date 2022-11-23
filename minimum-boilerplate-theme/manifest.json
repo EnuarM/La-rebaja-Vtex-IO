@@ -53,7 +53,6 @@
     "vtex.modal-layout": "0.x"
   },
   "peerDependencies": {
-    "vtex.reviews-and-ratings": "2.x",
     "vtex.questions-and-answers": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
