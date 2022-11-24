@@ -34,6 +34,7 @@
     padding: 0 24px;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
 }
 

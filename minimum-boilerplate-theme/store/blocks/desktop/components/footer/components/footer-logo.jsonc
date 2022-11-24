@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#footer__logo": {
+    "children": ["flex-layout.col#footer__logo"],
+    "props": {
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#footer__logo": {
+    "children": ["image#footer__logo"]
+  },
+  "image#footer__logo": {
+    "props": {
+      "width": 150,
+      "src": "https://itgloberspartnercl.vteximg.com.br/arquivos/logo-larebaja.png"
+    }
+  }
+}

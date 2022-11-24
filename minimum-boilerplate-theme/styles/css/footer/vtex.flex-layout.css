@@ -1,0 +1,29 @@
+.flexRowContent--footer-columns :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    flex-direction: column;
+    flex-wrap     : wrap;
+}
+
+.flexRowContent--disclosure-column :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    padding: 0;
+
+}
+
+.flexRowContent--footer-columns {
+    max-width      : 1330px;
+    margin         : 50px auto;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : flex-start;
+    width          : 90vw;
+}
+
+
+.flexCol--disclosure-group .flexColChild--disclosure-group {
+    flex-direction: column;
+    flex-wrap     : wrap;
+}
+
+.flexCol--social-links {
+    flex-direction : row;
+    justify-content: flex-start;
+}

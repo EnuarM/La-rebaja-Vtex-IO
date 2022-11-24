@@ -1,12 +1,17 @@
-.menuContainer {
-    align-items: center;
-    justify-content: space-around;
-    border-top     : 1px solid #e5e5e5;
-    padding        : 0 !important;
-    background-color: white;
+.menuContainer--header__menu {
+    justify-content: space-between;
+    max-width      : 100%;
+    margin         : auto;
+    position       : relative;
+    padding        : 0 12px;
 }
 
-.styledLinkContent {
+.menuContainerNav--header__menu {
+    margin   : auto;
+    max-width: 1380px;
+}
+
+.styledLinkContent{
     font-weight: 500;
     font-size  : 12px;
     line-height: 18px;
@@ -17,6 +22,12 @@
     height     : 40px;
     display    : flex;
     align-items: center;
+}
+
+.menuContainer--header__menu :global(.vtex-menu-2-x-styledLinkContainer) {
+    padding: 0;
+    margin: 0;
+    position: relative;
 }
 
 /* .styledLinkContent::after {

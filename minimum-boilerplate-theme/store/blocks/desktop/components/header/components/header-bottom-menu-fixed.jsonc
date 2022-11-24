@@ -8,8 +8,10 @@
       "menu-item#para-niñ@s",
       "menu-item#merca-express",
       "menu-item#un-look-genial"
-
-    ]
+    ],
+    "props": {
+      "blockClass": ["header__menu"]
+    }
   },
   "menu-item#blog": {
     "props": {

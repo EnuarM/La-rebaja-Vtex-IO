@@ -1,0 +1,333 @@
+{
+  "flex-layout.row#footer__disclosure": {
+    "children": ["flex-layout.col#footer__disclosure"],
+    "props": {
+      "width": "25%",
+      "blockClass": "disclosure-column"
+    }
+  },
+  "flex-layout.col#footer__disclosure": {
+    "children": [
+      "disclosure-layout-group#footer"
+    ],
+    "props": {
+      "blockClass": "disclosure-group"
+    }
+  },
+  "disclosure-layout-group#footer": {
+    "title": "Disclosure",
+    "children": [
+      "disclosure-layout#footer__section-one",
+      "disclosure-layout#footer__section-two",
+      "disclosure-layout#footer__section-three"
+    ]
+    ,"props": {
+      "blockClass": "disclosure-layout"
+    }
+  },
+  //Section One
+  "disclosure-layout#footer__section-one": {
+    "title": "Disclosure section one",
+    "children": [
+      "disclosure-trigger#footer__section-one",
+      "disclosure-content#footer__section-one"
+    ],
+    "props": {
+      "blockClass": "disclosure__section-one"
+    }
+  },
+  "disclosure-trigger#footer__section-one": {
+    "children": ["rich-text#disclosure__title-one"]
+  },
+  "rich-text#disclosure__title-one": {
+    "title": "Disclosure title one",
+    "props": {
+      "blockClass": "disclosure-title",
+      "text": "#### Relaciones con los clientes"
+    }
+  },
+  "disclosure-content#footer__section-one": {
+    "children": ["menu#disclosure__menu-section--one"]
+  },
+  "menu#disclosure__menu-section--one": {
+    "title": "Menu disclosure section one",
+    "children": [
+      "menu-item#disclosure__section-one--politicas",
+      "menu-item#disclosure__section-one--garantias",
+      "menu-item#disclosure__section-one--retracto",
+      "menu-item#disclosure__section-one--datos",
+      "menu-item#disclosure__section-one--sic"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#disclosure__section-one--politicas": {
+    "props": {
+      "type": "custom",
+      "id": "politicas",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "politicas",
+        "text": "Políticas y términos de uso"
+      }
+    }
+  },
+  "menu-item#disclosure__section-one--garantias": {
+    "props": {
+      "type": "custom",
+      "id": "garantias",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "garantias",
+        "text": "Garantías y devoluciones"
+      }
+    }
+  },
+  "menu-item#disclosure__section-one--retracto": {
+    "props": {
+      "type": "custom",
+      "id": "retracto",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "retracto",
+        "text": "Retracto y reversión"
+      }
+    }
+  },
+  "menu-item#disclosure__section-one--datos": {
+    "props": {
+      "type": "custom",
+      "id": "datos",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "datos",
+        "text": "Política de Tratamiento de Datos"
+      }
+    }
+  },
+  "menu-item#disclosure__section-one--sic": {
+    "props": {
+      "type": "custom",
+      "id": "sic",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "sic",
+        "text": "Superintendencia de industria y comercio SIC"
+      }
+    }
+  },
+  
+  //Section Two
+  "disclosure-layout#footer__section-two": {
+    "children": [
+      "disclosure-trigger#footer__section-two",
+      "disclosure-content#footer__section-two"
+    ]
+  },
+  "disclosure-trigger#footer__section-two": {
+    "title": "Disclosure section two",
+    "children": ["rich-text#disclosure__title-two"]
+  },
+  "rich-text#disclosure__title-two": {
+    "title": "Disclosure title two",
+    "props": {
+      "blockClass": "disclosure-title",
+      "text": "#### Información de interés"
+    }
+  },
+  "disclosure-content#footer__section-two": {
+    "children": ["menu#disclosure__menu-section--two"]
+
+  },
+  "menu#disclosure__menu-section--two": {
+    "title": "Menu disclosure section two",
+    "children": [
+      "menu-item#disclosure__section-two--reglamentos",
+      "menu-item#disclosure__section-two--ganadores",
+      "menu-item#disclosure__section-two--catalogo",
+      "menu-item#disclosure__section-two--muestras",
+      "menu-item#disclosure__section-two--convenios",
+      "menu-item#disclosure__section-two--opinion",
+      "menu-item#disclosure__section-two--estilo",
+      "menu-item#disclosure__section-two--tarjeta"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#disclosure__section-two--reglamentos": {
+    "props": {
+      "type": "custom",
+      "id": "reglamentos",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "reglamentos",
+        "text": "Reglamentos actividades"
+      }
+    }
+  },
+  "menu-item#disclosure__section-two--ganadores": {
+    "props": {
+      "type": "custom",
+      "id": "ganadores",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "ganadores",
+        "text": "Ganadores actividades"
+      }
+    }
+  },
+  "menu-item#disclosure__section-two--catalogo": {
+    "props": {
+      "type": "custom",
+      "id": "catalogo",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "catalogo",
+        "text": "Catalogo promocional"
+      }
+    }
+  },
+  "menu-item#disclosure__section-two--muestras": {
+    "props": {
+      "type": "custom",
+      "id": "muestras",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "muestras",
+        "text": "Muestras y obsequios"
+      }
+    }
+  },
+  "menu-item#disclosure__section-two--convenios": {
+    "props": {
+      "type": "custom",
+      "id": "convenios",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "convenios",
+        "text": "Convenios Empresariales"
+      }
+    }
+  },
+  "menu-item#disclosure__section-two--opinion": {
+    "props": {
+      "type": "custom",
+      "id": "opinion",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "opinion",
+        "text": "Tu opinión"
+      }
+    }
+  },
+  "menu-item#disclosure__section-two--estilo": {
+    "props": {
+      "type": "custom",
+      "id": "estilo",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "estilo",
+        "text": "Estilo de vida saludable"
+      }
+    }
+  },
+  "menu-item#disclosure__section-two--tarjeta": {
+    "props": {
+      "type": "custom",
+      "id": "tarjeta",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "tarjeta",
+        "text": "Tarjeta crediRebaja"
+      }
+    }
+  },
+
+  //Section Three
+  "disclosure-layout#footer__section-three": {
+    "children": [
+      "disclosure-trigger#footer__section-three",
+      "disclosure-content#footer__section-three"
+    ]
+  },
+  "disclosure-trigger#footer__section-three": {
+    "title": "Disclosure section three",
+    "children": ["rich-text#disclosure__title-three"]
+  },
+  "rich-text#disclosure__title-three": {
+    "title": "Disclosure title three",
+    "props": {
+      "blockClass": "disclosure-title",
+      "text": "#### Nuestra Compañía"
+    }
+  },
+  "disclosure-content#footer__section-three": {
+    "children": ["menu#disclosure__menu-section--three"]
+
+  },
+  "menu#disclosure__menu-section--three": {
+    "title": "Menu disclosure section three",
+    "children": [
+      "menu-item#disclosure__section-three--quienes-somos",
+      "menu-item#disclosure__section-three--proveedores",
+      "menu-item#disclosure__section-three--fundacion"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#disclosure__section-three--quienes-somos": {
+    "props": {
+      "type": "custom",
+      "id": "quienes-somos",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "quienes-somos",
+        "text": "¿Quienes somos?"
+      }
+    }
+  },
+  "menu-item#disclosure__section-three--proveedores": {
+    "props": {
+      "type": "custom",
+      "id": "proveedores",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "proveedores",
+        "text": "Proveedores"
+      }
+    }
+  },
+  "menu-item#disclosure__section-three--fundacion": {
+    "props": {
+      "type": "custom",
+      "id": "fundacion",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "fundacion",
+        "text": "Fundación"
+      }
+    }
+  }
+}
+
+  
+

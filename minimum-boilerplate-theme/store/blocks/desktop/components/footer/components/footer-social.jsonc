@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#footer__social": {
+    "children": ["flex-layout.col#footer__social"],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#footer__social": {
+    "children": ["rich-text#footer__social-title", "flex-layout.row#footer__social-links"]
+  },
+  "rich-text#footer__social-title": {
+    "title": "Social title",
+    "props": {
+      "text": "#### Síguenos",
+      "blockClass": "social-title"
+    }
+  },
+  "flex-layout.row#footer__social-links": {
+    "children": ["flex-layout.col#footer__social-links"]
+  },
+  "flex-layout.col#footer__social-links": {
+    "props": {
+      "blockClass": "social-links"
+    },
+    "children": [
+      "image#footer__social--facebook",
+      "image#footer__social--instagram",
+      "image#footer__social--youtube"
+    ]
+  },
+  "image#footer__social--facebook": {
+    "props": {
+      "src": "https://itgloberspartnercl.vteximg.com.br/arquivos/icon-fb.png",
+      "link": {
+        "url": "https://facebook.com/larebaja",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#footer__social--instagram": {
+    "props": {
+      "src": "https://itgloberspartnercl.vteximg.com.br/arquivos/icon-ig.png",
+      "link": {
+        "url": "https://instagram.com/larebaja",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#footer__social--youtube": {
+    "props": {
+      "src": "https://itgloberspartnercl.vteximg.com.br/arquivos/icon-yt.png",
+      "link": {
+        "url": "https://youtube.com/larebaja",
+        "openNewTab": true
+      }
+    }
+  }  
+
+}

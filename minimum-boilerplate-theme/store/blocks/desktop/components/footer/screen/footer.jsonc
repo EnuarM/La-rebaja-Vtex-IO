@@ -1,0 +1,27 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },  
+  "flex-layout.row#footer": { 
+    "props": {
+      "blockClass": "footer-columns"
+    },
+    "children": [
+      "flex-layout.row#footer__logo",
+      "flex-layout.row#footer__menu",
+      "flex-layout.row#footer__disclosure",
+      "flex-layout.row#footer__social"
+    ]
+  },
+
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  }
+}

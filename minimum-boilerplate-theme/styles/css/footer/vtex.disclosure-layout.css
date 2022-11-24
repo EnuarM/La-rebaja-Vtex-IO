@@ -1,0 +1,29 @@
+.trigger, 
+.trigger--hidden {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    min-height: 40px;
+    border: none;
+    border-bottom: 1px solid #c1c1c1;
+    position: relative;
+    outline: none;
+}
+
+.trigger::after, 
+.trigger--hidden::after {
+    content: "";
+    display: block;
+    min-width: 20px;
+    border: none;
+    min-height: 40px;
+    background-image: url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icons/circle-arrow-bottom___f50c291….svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transition: all .2s ease;
+}
+
+.trigger--visible::after {
+    transform: rotate(180deg);
+}
