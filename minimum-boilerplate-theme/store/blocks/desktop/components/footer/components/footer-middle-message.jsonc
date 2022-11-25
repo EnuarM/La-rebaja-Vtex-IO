@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#footer__middle--message": {
+    "props": {
+      "blockClass": "footer-middle-left",
+      "width": "30%"
+    },
+    "children": [
+      "flex-layout.col#footer__middle--image",
+      "flex-layout.col#footer__middle--msg"
+    ]
+  },
+  "flex-layout.col#footer__middle--image": {
+    "children":["image#footer__middle--image"],
+    "props": {
+      "width": "15%"
+    }
+
+  },
+  "image#footer__middle--image": {
+    "title": "Image footer middle msg",
+    "props": {
+      "src": "https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icons/icon-news___bf0932ba2da43943af9a9354574c8ae7.svg",
+      "width": 40,
+      "blockClass": "footer-middle-image"
+    }
+  },
+  "flex-layout.col#footer__middle--msg": {
+    "children":["rich-text#footer__middle--msg"]
+  },
+  "rich-text#footer__middle--msg": {
+    "props": {
+      "text": "Suscríbete a **nuestro boletín**",
+      "blockClass": "footer-middle-msg"
+    }
+  }
+}

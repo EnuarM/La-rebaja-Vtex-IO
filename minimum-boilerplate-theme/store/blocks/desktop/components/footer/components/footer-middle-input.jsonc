@@ -1,0 +1,56 @@
+{
+  "flex-layout.row#footer__middle--input": {
+    "props": {
+      "blockClass": "footer-middle-right"
+    },
+    "children": [
+      "flex-layout.col#footer__middle--input"
+    ]
+  },
+  "flex-layout.col#footer__middle--input": {
+    "children": [
+      "newsletter-form"
+    ]
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit",
+      "flex-layout.row#politics-data"
+      
+    ]    
+  },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "Correo electrónico"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Suscribirme"
+    }
+  },
+  "flex-layout.row#politics-data": {
+    "children": [
+      "newsletter-checkbox-confirmation",
+      "link#politics-data"
+    ],
+    "props": {
+      "blockClass": "politics"
+    }
+  },
+  "newsletter-checkbox-confirmation": {
+    "props": {
+      "checkboxLabel": "",
+      "blockClass": "politics"
+    }
+  },
+  "link#politics-data": {
+    "props": {
+      "width": "100%",
+      "blockClass": "link-politics",
+      "href": "https://www.mineducacion.gov.co/1759/articles-353715_recurso_3.pdf",
+      "label": "Acepto políticas de tratamientos de datos y términos y condiciones."
+    }
+  }
+}

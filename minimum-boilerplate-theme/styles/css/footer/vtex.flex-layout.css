@@ -1,29 +1,97 @@
+/* BENEFITS */
+.flexRow--benefits--footer {
+  width      : 84vw;
+  margin     : auto;
+  max-width  : 1300px;
+  padding-top: 50px;
+}
+
+.flexRowContent--benefits--footer {
+  justify-content: space-around;
+}
+
+.flexRow--benefits--footer :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}
+
+
+.flexCol--container-benefits {
+  flex-direction : row;
+  justify-content: center;
+  align-items    : center;
+}
+
+/* NEWSLETTER */
+.flexRow--footer__newsletter {
+  background: #dd1e2f;
+}
+
+.flexRow--footer__newsletter :global(.vtex-store-components-3-x-container) {
+  max-width: 1334px;
+}
+
+.flexRowContent--footer__newsletter {
+  background : #dd1e2f;
+  width      : 100%;
+  color      : #fff;
+  min-height : 100px;
+  display    : flex;
+  align-items: center;
+  margin     : 50px auto;
+  max-width  : 100%;
+}
+
+.flexRow--footer-middle-left {
+  display       : flex;
+  align-items   : center;
+  flex-direction: row;
+  padding       : 0 16px;
+}
+
+.flexRowContent--footer-middle-left {
+  align-items: center;
+}
+
+.flexRow--politics {
+  width    : 30%;
+  font-size: 12px;
+  color    : #fff;
+}
+
+.flexRowContent--politics :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 8%!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* COLUMNS */
 .flexRowContent--footer-columns :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    flex-direction: column;
-    flex-wrap     : wrap;
+  flex-direction: column;
+  flex-wrap     : wrap;
 }
 
 .flexRowContent--disclosure-column :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    padding: 0;
-
+  padding: 0;
 }
 
 .flexRowContent--footer-columns {
-    max-width      : 1330px;
-    margin         : 50px auto;
-    display        : flex;
-    justify-content: space-between;
-    align-items    : flex-start;
-    width          : 90vw;
+  max-width      : 1330px;
+  margin         : 50px auto;
+  display        : flex;
+  justify-content: space-between;
+  align-items    : flex-start;
+  width          : 90vw;
 }
 
 
 .flexCol--disclosure-group .flexColChild--disclosure-group {
-    flex-direction: column;
-    flex-wrap     : wrap;
+  flex-direction: column;
+  flex-wrap     : wrap;
 }
 
 .flexCol--social-links {
-    flex-direction : row;
-    justify-content: flex-start;
+  flex-direction : row;
+  justify-content: flex-start;
 }
+

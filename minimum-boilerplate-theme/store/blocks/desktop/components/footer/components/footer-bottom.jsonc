@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#footer__bottom--columns": {
+    "children": [
+      "flex-layout.row#footer__logo",
+      "flex-layout.row#footer__menu",
+      "flex-layout.row#footer__disclosure",
+      "flex-layout.row#footer__social"
+    ]
+  }
+}
