@@ -131,7 +131,7 @@
     margin-right    : 8px;
 }
 
-:global(.vtex-checkbox__line-container) {
+/* :global(.vtex-checkbox__line-container) {
     padding   : 4px 9px;
 }
 
@@ -169,7 +169,7 @@
     left: -0.5px;
     transform: scale(1.5);
     stroke: #f5f5f5;
-}
+} */
 
 .filter__container {
     padding: 0 18px;

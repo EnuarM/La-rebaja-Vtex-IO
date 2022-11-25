@@ -1,0 +1,76 @@
+.newsletterForm {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.emailInputContainer {
+    width: 60%;
+    filter: drop-shadow(0 3px 6px rgba(0,0,0,.25));
+    border-color: transparent!important;
+    border-radius: 20px;
+}
+
+.emailInputContainer :global(.vtex-input-prefix__group) {
+    border: none;
+}
+
+.emailInputContainer :global(.vtex-styleguide-9-x-input) {
+    height: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    color: #888;
+    font-family: Poppins;
+    border-radius: 20px;
+}
+
+.formSubmitContainer {
+    width: 10%;
+    margin-left: -20%;
+}
+
+.formSubmitContainer :global(.vtex-button) {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1a1919;
+    background-color: #ffd84f;
+    text-transform: capitalize;
+    width: 150px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    transition: all .3s ease;
+    font-family: Poppins;
+}
+
+.formSubmitContainer :global(.vtex-button__label) {
+    padding-top: 0.25em;
+    padding-bottom: 0.32em;
+}
+
+.confirmationCheckboxContainer--politics {
+    margin-right: 15px;
+    margin-bottom: 5px;
+    color: #fff!important;
+    font-size: 12px;
+    padding-right: 25px;
+}
+
+.confirmationCheckboxContainer--politics :global(.vtex-checkbox__line-container) {
+    align-items: center;
+    padding: 0;
+}
+
+.confirmationCheckboxContainer--politics :global(.vtex-checkbox__inner-container),
+.confirmationCheckboxContainer--politics :global(.vtex-checkbox__box)  {
+    border-color: #fff;
+    width: 25px;
+    height: 25px;
+}
+
+
+

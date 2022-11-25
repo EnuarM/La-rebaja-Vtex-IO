@@ -1,0 +1,97 @@
+{
+  "flex-layout.row#footer__top--benefits": {
+    "props": {
+      "blockClass": "benefits--footer"
+    },
+    "children": [
+      "flex-layout.col#footer__top--benefits-discounts",
+      "flex-layout.col#footer__top--benefits-speed",
+      "flex-layout.col#footer__top--benefits-payment",
+      "flex-layout.col#footer__top--benefits-shiiping"
+    ]
+  },
+  "flex-layout.col#footer__top--benefits-discounts": {
+    "props": {
+      "blockClass": "container-benefits"
+    },
+    "children": [
+      "image#footer__top--icon-benefits",
+      "rich-text#footer__top--benefits"
+    ]
+  },
+  "image#footer__top--icon-benefits": {
+    "props": {
+      "src": "https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icons/icon-benefits-discount-lr___995274c210c9778993234e10f1f76054.svg",
+      "width": 75
+    }
+  },
+  "rich-text#footer__top--benefits": {
+    "props": {
+      "text": "### Descuentos permanentes",
+      "blockClass": "benefits-title"
+    }
+  },
+  "flex-layout.col#footer__top--benefits-speed": {
+    "props": {
+      "blockClass": "container-benefits"
+    },
+    "children": [
+      "image#footer__top--icon-speed",
+      "rich-text#footer__top--speed"
+    ]
+  },
+  "image#footer__top--icon-speed": {
+    "props": {
+      "src": "https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icons/icon-benefits-time-lr___f4116ab6951f04775518512023ca3607.svg",
+      "width": 75
+    }
+  },
+  "rich-text#footer__top--speed": {
+    "props": {
+      "text": "### ¡Rapidez!",
+      "blockClass": "benefits-title"
+    }
+  },
+  "flex-layout.col#footer__top--benefits-payment": {
+    "props": {
+      "blockClass": "container-benefits"
+    },
+    "children": [
+      "image#footer__top--icon-payment",
+      "rich-text#footer__top--payment"
+    ]
+  },
+  "image#footer__top--icon-payment": {
+    "props": {
+      "src": "https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icons/icon-benefits-payments-lr___d3ecf07a5bf389b09af01f2921b3996a.svg",
+      "width": 75
+    }
+  },
+  "rich-text#footer__top--payment": {
+    "props": {
+      "text": "### Todos los medios de pago",
+      "blockClass": "benefits-title"
+    }
+  },
+  "flex-layout.col#footer__top--benefits-shiiping": {
+    "props": {
+      "blockClass": "container-benefits"
+    },
+    "children": [
+      "image#footer__top--icon-shipping",
+      "rich-text#footer__top--shipping"
+    ]
+  },
+  "image#footer__top--icon-shipping": {
+    "props": {
+      "src": "https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icons/icon-benefits-delivery-lr___958bccaa594f1e18394ad260236093ac.svg",
+      "width": 75
+    }
+  },
+  "rich-text#footer__top--shipping": {
+    "props": {
+      "text": "### Más de 1500 mensajeros",
+      "blockClass": "benefits-title"
+    }
+  }
+}

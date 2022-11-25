@@ -1,0 +1,12 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer__top--benefits",
+      "flex-layout.row#footer__middle--newsletter",
+      "flex-layout.row#footer__bottom--columns"
+    ]
+  }
+}
