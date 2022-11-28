@@ -5,8 +5,16 @@
       "list-context.image-list#home__slider--list",
       "rich-text#home--title__one",
       "list-context.image-list#home__icon-slider",
-      "rich-text#home--two"
+      "rich-text#home--two",
+      "whatsapp-button"
       // "list-context.product-list#demo1"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "https://itgloberspartnercl.vteximg.com.br/arquivos/icon-fb.png",
+      "phone": "777777777",
+      "message": "VTEX ES LO MEJOR"
+    }
   }  
 }
