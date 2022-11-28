@@ -1,14 +1,9 @@
 {
   "flex-layout.row#footer__menu": {
-    "children": ["flex-layout.col#footer__menu"],
-    "props": {
-      "width": "25%"
-    }
-  },
-  "flex-layout.col#footer__menu": {
     "children": ["rich-text#footer__menu--title", "menu#footer__menu"],
     "props": {
-      "blockClass": "footer__menu"
+      "width": "25%",
+      "blockClass": "footer-menu"
     }
   },
   "rich-text#footer__menu--title": {
@@ -23,7 +18,9 @@
   "menu#footer__menu": {
     "title": "Menu footer",
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "menu-footer"
     },
     "children": [
       "menu-item#footer__menu--cali",

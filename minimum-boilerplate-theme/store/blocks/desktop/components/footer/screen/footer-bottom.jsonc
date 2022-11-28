@@ -5,6 +5,9 @@
       "flex-layout.row#footer__menu",
       "flex-layout.row#footer__disclosure",
       "flex-layout.row#footer__social"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer-columns"
+    }
   }
 }
