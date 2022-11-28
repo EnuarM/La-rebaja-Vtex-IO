@@ -59,16 +59,30 @@
 }
 
 .flexRowContent--politics :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
-    width: 8%!important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width          : 8% !important;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
 }
 
 /* COLUMNS */
+.flexRowContent--footer-menu,
 .flexRowContent--footer-columns :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   flex-direction: column;
   flex-wrap     : wrap;
+}
+
+.flexRowContent--footer-menu :global(.vtex-menu-2-x-styledLinkContent) {
+  font-style : normal;
+  font-weight: 400;
+  font-size  : 12px;
+  line-height: 18px;
+  color      : #1a1919;
+  font-family: Poppins;
+}
+
+.flexRowContent--footer-menu :global(.vtex-menu-2-x-styledLinkContent):hover {
+  color: #dd1e2f;
 }
 
 .flexRowContent--disclosure-column :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -84,14 +98,34 @@
   width          : 90vw;
 }
 
+.flexRowContent--disclosure-column :global(.vtex-menu-2-x-menuContainer) {
+  margin-top: 10px;
+  padding   : 5px;
+}
+
+.flexRowContent--disclosure-column :global(.vtex-menu-2-x-styledLinkContent) {
+  font-style : normal;
+  font-weight: 400;
+  font-size  : 12px;
+  line-height: 18px;
+  color      : #1a1919;
+  font-family: Poppins;
+}
+
+.flexRowContent--disclosure-column :global(.vtex-menu-2-x-styledLinkContent):hover {
+  color: #dd1e2f;
+}
 
 .flexCol--disclosure-group .flexColChild--disclosure-group {
   flex-direction: column;
   flex-wrap     : wrap;
 }
 
+.flexRow--social-column {
+  padding-left: 28%;
+}
+
 .flexCol--social-links {
   flex-direction : row;
   justify-content: flex-start;
 }
-

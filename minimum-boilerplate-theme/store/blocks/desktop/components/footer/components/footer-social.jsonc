@@ -2,6 +2,7 @@
   "flex-layout.row#footer__social": {
     "children": ["flex-layout.col#footer__social"],
     "props": {
+      "blockClass": "social-column",
       "width": "20%"
     }
   },

@@ -6,12 +6,13 @@
     }
   },
   "flex-layout.col#footer__logo": {
-    "children": ["image#footer__logo"]
+    "children": ["logo#footer__logo"]
   },
-  "image#footer__logo": {
+  "logo#footer__logo": {
     "props": {
       "width": 150,
-      "src": "https://itgloberspartnercl.vteximg.com.br/arquivos/logo-larebaja.png"
+      "url": "https://itgloberspartnercl.vteximg.com.br/arquivos/logo-larebaja.png",
+      "href": "/"
     }
   }
 }
