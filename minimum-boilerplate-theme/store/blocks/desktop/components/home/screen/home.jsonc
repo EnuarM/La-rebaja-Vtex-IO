@@ -5,8 +5,9 @@
       "list-context.image-list#home__slider--list",
       "rich-text#home--title__one",
       "list-context.image-list#home__icon-slider",
-      "rich-text#home--two",
-      "whatsapp-button"
+      "rich-text#home--two"
+      // "list-context.bullet-group",
+      // "whatsapp-button"
       // "list-context.product-list#demo1"
     ]
   },
@@ -14,7 +15,29 @@
     "props": {
       "logo": "https://itgloberspartnercl.vteximg.com.br/arquivos/icon-fb.png",
       "phone": "777777777",
-      "message": "VTEX ES LO MEJOR"
+      "message": "VTEX ES LO MEJOR",
+      "width": 70,
+      "height": 70
     }
-  }  
+  },
+  "list-context.bullet-group": {
+    "props": {
+      "bullets": [
+        {
+          "image": "mi-imagen.png",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "mi-imagen.png",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  }
 }
