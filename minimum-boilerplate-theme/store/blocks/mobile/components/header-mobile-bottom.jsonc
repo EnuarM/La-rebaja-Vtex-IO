@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#header-mobile__bottom": {
+    "title": "Header mobile bottom",
+    "children": ["drawer#menu-desktop", "flex-layout.col#search-bar"],
+    "props": {
+      "blockClass": "header-mobile-search",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  }
+}

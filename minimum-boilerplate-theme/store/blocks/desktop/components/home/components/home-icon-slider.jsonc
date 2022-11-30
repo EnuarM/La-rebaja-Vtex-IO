@@ -56,7 +56,7 @@
       "itemsPerPage": {
         "desktop": 7,
         "tablet": 5,
-        "mobile": 3
+        "mobile": 2
       },
       "infinite": true,
       "autoplay": {

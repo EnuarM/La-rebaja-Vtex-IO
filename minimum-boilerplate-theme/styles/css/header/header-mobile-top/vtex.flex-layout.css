@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1026px) {
+
+  .flexRow--header__top {
+    background-image: none;
+    background-color: #e1e1e1;
+  }
+
+
+  .flexRowContent--header__top {
+    display: flex;
+    color  : #333 !important;
+  }
+}

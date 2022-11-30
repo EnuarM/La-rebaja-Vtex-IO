@@ -1,0 +1,13 @@
+{
+  "sticky-layout#mobile": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#header-mobile__top",
+      "flex-layout.row#header-mobile__middle",
+      "flex-layout.row#header-mobile__bottom",
+      "slider-layout#header-mobile__menu-fixed"
+    ]
+  }
+}

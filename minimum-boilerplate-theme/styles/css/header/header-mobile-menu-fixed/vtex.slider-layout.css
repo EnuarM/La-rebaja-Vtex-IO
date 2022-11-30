@@ -1,0 +1,22 @@
+.sliderLayoutContainer--carousel-menu-items {
+  height   : 75px;
+  max-width: 1380px;
+  width    : 100% !important;
+  margin   : 0 auto;
+  padding  : 0 2rem;
+}
+
+.slide--carousel-menu-items {
+  color      : blueviolet;
+  font-family: Poppins;
+
+}
+
+.sliderLayoutContainer--carousel-menu-items :global(.vtex-slider-layout-0-x-sliderArrows) {
+  color           : #888;
+  width           : 37px;
+  height          : 37px;
+  background-color: #f5f5f5 !important;
+  border-radius   : 50%;
+  overflow        : hidden;
+}

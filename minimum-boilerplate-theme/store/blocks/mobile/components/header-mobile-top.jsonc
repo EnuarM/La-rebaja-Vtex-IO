@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#header-mobile__top": {
+    "title": "Header mobile top",
+    "children": ["flex-layout.col#header-mobile__top"],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  "flex-layout.col#header-mobile__top": {
+    "children": ["rich-text#header-mobile__top"]
+  },
+  "rich-text#header-mobile__top": {
+    "title": "Texto header mobile top",
+    "props": {
+      "blockClass": "greeting-text",
+      "text": "Hola! [Queremos saber ¿Quien Eres?](/login)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}
