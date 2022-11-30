@@ -1,0 +1,8 @@
+.wrapper--sticky-header {
+    position: relative;
+    height: 143px;
+}
+
+.container--sticky-header {
+    background-color: #fff;
+}

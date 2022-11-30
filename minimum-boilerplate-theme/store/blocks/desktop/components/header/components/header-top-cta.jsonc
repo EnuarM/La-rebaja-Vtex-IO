@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#header__header--top": {
+  "flex-layout.row#header__top": {
     "title": "Header top",
     "children": [
       "flex-layout.col#header__top--left",
@@ -17,7 +17,7 @@
       ],
       "props": {
         "blockClass": "header__top--left-text",
-        "horizontalAlign": "center"
+        "horizontalAlign": "left"
       }
     },
     "rich-text#header__top--left-text": {
@@ -36,7 +36,7 @@
       ],
       "props": {
         "blockClass": "header__top-right-container",
-        "horizontalAlign": "center"
+        "horizontalAlign": "right"
       }
     },
     "rich-text#header__top--right-text": {

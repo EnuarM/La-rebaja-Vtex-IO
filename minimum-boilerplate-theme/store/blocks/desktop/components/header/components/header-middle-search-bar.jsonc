@@ -1,0 +1,16 @@
+{
+  "flex-layout.col#search-bar": {
+    "props": {
+      "blockClass": "search-bar"
+    },
+    "children": ["search-bar"]
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "¿Qué estás buscando?",
+      "displayMode": "clear-button"
+    }
+  }
+}
