@@ -47,17 +47,6 @@
     background-repeat  : no-repeat;
 }
 
-.label::after,
-.profile::after {
-    font-family   : Poppins;
-    content       : "Mi cuenta";
-    text-transform: none;
-    color         : #1a1919;
-    font-size     : 13px;
-    align-self    : center;
-    text-align    : left;
-}
-
 .arrowUp {
     display: none;
 }

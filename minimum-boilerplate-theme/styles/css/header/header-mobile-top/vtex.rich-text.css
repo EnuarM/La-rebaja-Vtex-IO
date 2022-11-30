@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1026px) {
+
+    .paragraph--greeting-text {
+        color: #333;
+        font-size: 14px;
+        font-family: Poppins;
+    }
+
+    .link--greeting-text {
+        color: #333;
+    }
+}

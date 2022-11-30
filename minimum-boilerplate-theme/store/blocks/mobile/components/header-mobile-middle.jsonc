@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#header-mobile__middle": {
+    "props": {
+      "blockClass": "header-mobile__middle",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "flex-layout.col#header-logo", 
+      "flex-layout.col#login-mobile"
+    ]
+  }
+}

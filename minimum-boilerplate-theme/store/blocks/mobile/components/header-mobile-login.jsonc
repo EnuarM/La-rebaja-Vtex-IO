@@ -1,0 +1,9 @@
+{
+  "flex-layout.col#login-mobile": {
+    "children": ["login"],
+    "props": {
+      "blockClass": "header__middle--login",
+      "verticalAlign": "middle"
+    }
+  }
+}

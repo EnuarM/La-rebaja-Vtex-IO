@@ -1,8 +1,9 @@
 {
-  "flex-layout.col#login": {
+  "flex-layout.col#login-desktop": {
     "children": ["login"],
     "props": {
-      "blockClass": "header__middle--login"
+      "blockClass": "header__middle--login",
+      "verticalAlign": "middle"
     }
   },
   "login": {

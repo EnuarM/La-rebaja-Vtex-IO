@@ -1,0 +1,20 @@
+.flexRow--header-mobile__middle {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    min-height: 85px;
+    justify-content: space-between;
+
+}
+
+.flexRowContent--header-mobile__middle {
+    align-items: center;
+}
+
+.flexRow--header-mobile__middle :global(.vtex-store-components-3-x-container) {
+    width: 100%;
+}
+
+.flexRowContent--header-mobile__middle :global(.vtex-flex-layout-0-x-flexColChild) {
+    width: auto;
+}

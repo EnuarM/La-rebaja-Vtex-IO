@@ -10,11 +10,11 @@
     },
     "children": [
       "drawer#menu-desktop",
-      "flex-layout.col#logo-desktop",
+      "flex-layout.col#header-logo",
       "flex-layout.col#spacer",
       "flex-layout.col#search-bar",
       "flex-layout.col#spacer",
-      "flex-layout.col#login"
+      "flex-layout.col#login-desktop"
       // "minicart.v2"
     ]
   },
