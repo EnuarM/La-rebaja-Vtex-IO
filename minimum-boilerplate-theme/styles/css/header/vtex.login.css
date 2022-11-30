@@ -1,33 +1,142 @@
-.label{
-    color: #1a1919;
-    font-size: 13px;
-    align-self: center;
-    text-align: left;
+
+.box {
+    min-width: 155px;
+    max-width: none!important;
+    top: 100%;
+}
+.container {
+    justify-content: center;
+    margin-right   : 10px;
 }
 
-.profileIcon{
-    color: transparent;
+.container :global(.vtex-button) {
+    width      : 100%;
+    background : transparent;
+    position   : relative;
+    display    : flex;
+    align-items: center;
+}
+
+.container :global(.vtex-button__label) {
+    padding: 0 !important;
+}
+
+.contentContainer {
+    overflow: hidden;
+    border-radius: 0 0 20px 20px;
+    min-width: auto;
+}
+
+.label,
+.profile {
+    display    : flex;
+    align-items: center;
+    font-size  : 0;
+    text-align : left;
+}
+
+.label::before,
+.profile::before {
+    content            : "";
     width              : 40px;
     min-width          : 40px;
     height             : 40px;
-    background-image   : url(assets/img/login-icon.jpg);
+    background-image   : url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.77/images/icons/icon-mi-cuenta___549b45b4a07e53cef448ae7970c2eb03.png);
     background-size    : 100%;
     background-position: 50%;
     background-repeat  : no-repeat;
 }
 
-.container {
-    color: green;
-    font-size: 13px;
-    align-self: center;
-    text-align: left;
+.label::after,
+.profile::after {
+    font-family   : Poppins;
+    content       : "Mi cuenta";
+    text-transform: none;
+    color         : #1a1919;
+    font-size     : 13px;
+    align-self    : center;
+    text-align    : left;
 }
 
-.label {
-    color: #1a1919;
-    font-size: 13px;
-    align-self: center;
-    text-align: left;
-    content: "Mi cuenta";
-    text-transform: capitalize;
+.arrowUp {
+    display: none;
+}
+
+.content--accountOptions {
+    padding   : 0;
+    width     : 100%;
+    max-width : 100% !important;
+    min-height: 0 !important;
+}
+
+.content--accountOptions :global(.vtex-login-2-x-contentForm) {
+    min-width: auto;
+}
+
+.contentForm {
+    width  : 100%;
+    padding: 0;
+}
+
+.accountOptionsSectionTitle {
+    display        : none;
+    width          : 100%;
+    height         : 39px;
+    justify-content: center;
+    align-items    : center;
+    margin-bottom  : 0;
+}
+
+.item-menu {
+    display        : flex;
+    width          : 100%;
+    min-width      : 100%;
+    height         : 39px;
+    justify-content: center;
+    align-items    : center;
+    padding        : 0;
+    margin         : 4px 0;
+    font-weight    : 700;
+    color          : #1a1919;
+    background     : #fff;
+    transition     : all .5s ease 0s;
+    font-family    : Poppins;
+}
+
+.logoutButton {
+    display      : block;
+    margin       : 0 auto;
+    width        : 100%;
+    max-width    : 132px;
+    height       : 33px;
+    text-align   : center;
+    padding      : 10px 0;
+    color        : #fff;
+    background   : #dd1e2f;
+    border-radius: 20px;
+    transition   : all .2s ease-in-out;
+    font-family  : Poppins;
+}
+
+
+@media only screen and (min-width: 1026px) {
+
+    .box {
+        right: -150px!important;
+    }
+    
+    .label::before,
+    .profile::before {
+        margin-right: 10px;
+    }
+
+    .label::after,
+    .profile::after {
+        content       : "Mi cuenta";
+        text-transform: none;
+        color         : #1a1919;
+        font-size     : 14px;
+        align-self    : center;
+        text-align    : left;
+    }
 }

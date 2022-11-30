@@ -1,30 +1,23 @@
 {
+  "flex-layout.row#header--bottom": {
+    "children": ["vtex.menu@2.x:menu#header__fixed-menu"],
+    "props": {
+      "blockClass": "header-bottom"
+    }
+  },
   "vtex.menu@2.x:menu#header__fixed-menu": {
     "title": "Header bottom",
     "children": [
-      "menu-item#blog", 
       "menu-item#super-ofertas",
-      "menu-item#panini",
+      "menu-item#mundial", 
+      "menu-item#velitas",
       "menu-item#para-niñ@s",
+      "menu-item#gripa",
       "menu-item#merca-express",
       "menu-item#un-look-genial"
     ],
     "props": {
-      "blockClass": ["header__menu"]
-    }
-  },
-  "menu-item#blog": {
-    "props": {
-      "id": "menu-item-blog",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "blog",
-        "text": "Blog💥"
-      }
+      "blockClass": "header__menu"
     }
   },
   "menu-item#super-ofertas": {
@@ -34,24 +27,38 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/nosotros",
         "noFollow": false,
         "tagTitle": "super-ofertas",
         "text": "Super Ofertas 🚨"
       }
     }
   },
-  "menu-item#panini": {
+  "menu-item#mundial": {
     "props": {
-      "id": "menu-item-super-panini",
+      "id": "menu-item-mundial",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/nosotros",
         "noFollow": false,
-        "tagTitle": "panini",
-        "text": "Panini ⚽"
+        "tagTitle": "mundial",
+        "text": "Pasión Mundial⚽"
+      }
+    }
+  },
+  "menu-item#velitas": {
+    "props": {
+      "id": "menu-item-velitas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nosotros",
+        "noFollow": false,
+        "tagTitle": "velitas",
+        "text": "¡Prende tus Velitas¡🕯️"
       }
     }
   },
@@ -62,10 +69,24 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/nosotros",
         "noFollow": false,
         "tagTitle": "para-niñ@s",
         "text": "Para niñ@s🥳"
+      }
+    }
+  },
+  "menu-item#gripa": {
+    "props": {
+      "id": "menu-item-gripa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nosotros",
+        "noFollow": false,
+        "tagTitle": "gripa",
+        "text": "Gripa y Defensas🤧"
       }
     }
   },
@@ -76,7 +97,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/nosotros",
         "noFollow": false,
         "tagTitle": "merca-express",
         "text": "Merca Express 🥫🍫"
@@ -90,7 +111,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/nosotros",
         "noFollow": false,
         "tagTitle": "un-look-genial",
         "text": "Un look genial💅🏼💇🏼‍♀️"

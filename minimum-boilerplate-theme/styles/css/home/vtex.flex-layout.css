@@ -1,0 +1,7 @@
+.flexRow--main-slider {
+    overflow: hidden;
+}
+
+.flexRow--main-slider :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}

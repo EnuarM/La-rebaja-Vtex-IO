@@ -1,14 +1,42 @@
-.flexRowContent--header__top {
-    background-image   : url("https://itgloberspartnercl.vteximg.com.br/arquivos/section-one-bg.jpg");
-    background-position: center;
-    background-repeat  : no-repeat;
-    width              : 100%;
+.flexRow--header__top {
     display            : flex;
     align-items        : center;
     justify-content    : center;
+    background-image   : url("https://itgloberspartnercl.vteximg.com.br/arquivos/section-one-bg.jpg");
     background-position: 50%;
     background-size    : cover;
     min-height         : 40px;
+}
+
+.flexRowContent--header__top {
+    max-width  : 1380px;
+    margin     : auto;
+    font-size  : 14px;
+    line-height: 12px;
+    padding    : 0 24px;
+    color      : #fff;
+    align-items: center;
+    max-height : 40px;
+}
+
+/* HEADER MIDDLE */
+.flexRow--header-middle {
+    background-color: #fff;
+    border-bottom   : 1px solid #e5e5e5;
+}
+
+.flexRowContent--header-middle {
+    max-width  : 1380px;
+    margin     : auto;
+    font-size  : 14px;
+    line-height: 12px;
+    padding    : 0 24px;
+    color      : #fff;
+    align-items: center;
+}
+
+.flexCol--search-bar {
+    min-width: 35vw;
 }
 
 .flexColChild--minicart__empty--container {
@@ -26,14 +54,9 @@
     align-items    : center;
 }
 
-.flexRow--header-middle {
-    max-width       : 1380px;
-    margin          : auto;
-    font-size       : 14px;
-    line-height     : 12px;
-    padding         : 0 24px;
-    align-items     : center;
-    justify-content : space-between;
-    background-color: #fff;
-    border-bottom   : 1px solid #e5e5e5;
+/* HEADER BOTTOM */
+.flexRow--header-bottom :global(.vtex-store-components-3-x-container) {
+    padding  : 0 12px;
+    margin   : auto;
+    max-width: 1380px;
 }
