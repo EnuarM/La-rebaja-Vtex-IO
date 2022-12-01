@@ -18,10 +18,12 @@
     padding: 0 10px;
 }
 
+.imageElement--home__slider {
+    max-height: unset!important;
+}
 
-.sliderLayoutContainer--home__slider :global(.vtex-slider-layout-0-x-slide--home__slider--firstVisible),
-.sliderLayoutContainer--home__slider :global(.vtex-slider-layout-0-x-slide--home__slider--hidden) {
-    width: 3.84615% !important;
+.sliderLayoutContainer--home__slider :global(.vtex-slider-layout-0-x-slide--home__slider--firstVisible) {
+    width: 4.34783% !important;
 }
 
 .slideChildrenContainer--home__slider {

@@ -1,0 +1,6 @@
+@media only screen and (max-width: 1026px) {
+
+  .imageElement--home__icon-slider {
+    filter: grayscale(0);
+  }
+}

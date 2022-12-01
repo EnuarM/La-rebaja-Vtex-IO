@@ -1,0 +1,141 @@
+{
+  "flex-layout.row#home__main-slider": {
+    "children": ["list-context.image-list#home__slider--list"],
+    "props": {
+      "blockClass": "main-slider"
+    }
+  },
+  "list-context.image-list#home__slider--list": {
+    "title": "Imagenes slider",
+    "children": [
+      "slider-layout#home__slider--list"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/85fef998-53ec-4c09-ac95-22bed1f7cc02___98cf580b6a1cd8aabf54f55ab1476fc9.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/e770315a-0657-4d43-ace5-7f6018ad3d66___2c12412c3ffdd4da3b18335e66a3087c.webp",
+          "description": "Slide 1"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/ef70eb82-936c-4d30-ad98-cd9ad7fc13cd___4a2dbdd6efd6a4b0949ea1ac7d56af43.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/fd219933-cc80-4933-a49e-f5270ac54169___6f49ebb4b9743eb4254ac096e4966f05.webp",
+          "description": "Slide 2"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/db5ea3e6-7683-4193-b854-284511622a87___02807f5bcfd19e927558a61792174a48.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/76f9e0ca-40f9-4d07-8b0e-b2392fdab6ac___94481b34823a3a17e73c9b746c3476f1.webp",
+          "description": "Slide 3"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/1c316a89-4492-4ae1-97fb-1d5639f97af7___abb96ad8f1ad92d745a9fd13b18f8d1e.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/76f19508-d0dc-4609-b9b2-0f3160492d3f___fa942e819808f335a1f818d23a7a48a9.webp",
+          "description": "Slide 4"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/a96d8cbf-9279-4dfa-b7cb-821427cd5845___330936e9933662d663643bc61bb41ef1.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/e655c6ba-af47-4e55-8df0-1ab5ed479107___1a7d4d598493763ed7e328079199717b.webp",
+          "description": "Slide 5"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/9c2acc74-8cee-460e-a2af-4c93f2c3560e___4701a6b84cb4d11ec2aac7e33f96be81.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/60bc572f-9db5-454e-8718-4a1c023627cf___8823bdd431cb9c5976c03e41789f328b.webp",
+          "description": "Slide 6"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/fd49900f-615d-4127-82d4-ce544429156b___580d805a21c64a93c3ac1150838a9459.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/b72f6830-b2a9-480c-80a6-57383d5c70d2___30388a535342b8f5500520da7b269d77.webp",
+          "description": "Slide 7"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/65fb499c-cbb0-4894-a3f6-53228bab1e6e___ff67bc16b7a6afbc70b966e3e5fc04d7.jpg",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/9e85d5ea-91d0-404d-97a9-1f5a821cb5d1___bfe8be5206ea7dd3a812e08f51700ca2.jpg",
+          "description": "Slide 8"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/4648b1a6-d94f-4d2a-beae-ed8ae0026ff7___9dc9227110a8dbe07c1bb22658424cb0.jpg",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/f397c934-c57a-40d2-85b8-48a4470d4e52___4643f4fab33f399782cdf8d0f4a95695.jpg",
+          "description": "Slide 9"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/4dd1b71d-f729-41f7-a822-8ac36a8ade9f___8e0e0a90657b1b47d665493a4dae9719.jpg",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/ed53442c-d622-4507-872d-12232d32b74e___256c913e2453550c1b8b23c819e3d6c0.jpg",
+          "description": "Slide 10"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/f230025e-7688-44f4-9e60-f202962a7c08___37ee1bb5659e79c946b710fd3f0ec5ac.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/73f1181f-8ace-4008-bd59-d96f647de9b0___63ce6ffeccce26ecdc438e8ee2ddd2b8.webp",
+          "description": "Slide 11"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/a5e902cc-c47f-4e30-b64e-89093b4377a3___752db046fc6b6f08f6aaeca769396b87.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/53c5215f-663b-40a5-9028-bb13af4155db___57e65f282459e41e6da2189b8ee741f3.webp",
+          "description": "Slide 12"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/5aea2736-3453-428b-8f85-6ffcb068eb0e___14c6fc609f85d082af2311a55549aa93.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/2d47e29c-8d26-496a-83d0-1a3f883cacda___1212bde3c51699ab486b6e0ea3bd54a8.webp",
+          "description": "Slide 13"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/0a64c7be-93e7-4dc1-8b23-69e051dc5c55___ff954480cf7a5a043c8f54153822d846.jpg",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/d6ba2f1c-2b03-4cd0-bd53-099e0203cf6c___9ef71711cc4870ba9f0822bc4bb302a4.jpg",
+          "description": "Slide 14"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/69f2641c-4a78-4797-b2cc-df3c9b38671e___566692a8424eddd7071ce9690b7c5c16.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/b770d5ec-7e91-4b4b-9c2f-a7274b1e42aa___2893020730115b934ac1108a53fa2436.webp",
+          "description": "Slide 15"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/c68bfdb7-1741-4076-b773-21021db73995___e08cefe243f00a0eb7ee6faeda956ab1.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/6b70165b-4e7c-4589-8f9d-b08d65f3ab94___824c50f880ba197b81ababa096a8f6f1.webp",
+          "description": "Slide 16"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/c0eaedf9-6783-4d56-b9c3-b41360441804___88b943c00aefe8bba91d32b531ab20e4.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/747f8f0c-a5bc-40f6-a3c1-701097826951___2ca2ba0bef03616b3677e6ccf8ec7bea.webp",
+          "description": "Slide 17"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/92a62c43-4e7b-47cd-ad09-981952d2848f___66d10ffc9bc9fee145f4b38d33b3f41b.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/42d58ed6-bb86-4b10-8807-8518c58ff439___43c42f6572c09889517bd70e2c889231.webp",
+          "description": "Slide 18"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/4bc45bfb-6b54-4baa-a771-c5794f6ecfc4___0b5c8b19b10d2850097335ed3ba06eee.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/844f78fd-c38e-41cd-af33-da67a36c4e74___df677735edf07a1b6771a97fb5516da3.webp",
+          "description": "Slide 19"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/19ae46c4-12e6-4eac-a560-91b8d325927e___a7c0338951ba6030734eb01ac5959717.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/97c42724-febe-4d48-b9d8-21d7a87ee293___fd277e2848ded9b34d9c302ad818888e.webp",
+          "description": "Slide 20"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/935db8a0-a58c-44c5-b5ed-5e3c234d66dc___4608e16c7f49863fc00641f5ae705dc4.webp",
+          "mobileImage": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/45093177-9cef-4200-88ac-6801b464ccda___2b3d024c2b94ee98316913be9e456530.webp",
+          "description": "Slide 21"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__slider--list": {
+    "title": "Slider con lista de imagenes",
+    "props": {
+      "fullWidth": true,
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

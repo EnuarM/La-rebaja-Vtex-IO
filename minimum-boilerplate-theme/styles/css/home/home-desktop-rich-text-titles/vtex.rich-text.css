@@ -1,0 +1,11 @@
+.container--home-title {
+  font-family   : Poppins;
+  font-weight   : 600;
+  font-size     : 30px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.paragraph--home-title {
+  color: #1a1919
+}

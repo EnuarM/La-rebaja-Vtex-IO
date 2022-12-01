@@ -1,5 +1,6 @@
 {
   "slider-layout#header-mobile__menu-fixed": {
+    "title": "Slider menu fixed",
     "props": {
       "itemsPerPage": {
         "tablet": 2,

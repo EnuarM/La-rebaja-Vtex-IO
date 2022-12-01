@@ -1,5 +1,6 @@
 {
   "flex-layout.row#header-mobile__middle": {
+    "title": "Header middle",
     "props": {
       "blockClass": "header-mobile__middle",
       "verticalAlign": "center",
