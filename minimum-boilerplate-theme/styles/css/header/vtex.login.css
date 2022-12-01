@@ -1,9 +1,9 @@
-
 .box {
     min-width: 155px;
-    max-width: none!important;
-    top: 100%;
+    max-width: none !important;
+    top      : 100%;
 }
+
 .container {
     justify-content: center;
     margin-right   : 10px;
@@ -22,9 +22,9 @@
 }
 
 .contentContainer {
-    overflow: hidden;
+    overflow     : hidden;
     border-radius: 0 0 20px 20px;
-    min-width: auto;
+    min-width    : auto;
 }
 
 .label,
@@ -111,9 +111,9 @@
 @media only screen and (min-width: 1026px) {
 
     .box {
-        right: -150px!important;
+        right: -150px !important;
     }
-    
+
     .label::before,
     .profile::before {
         margin-right: 10px;
@@ -127,5 +127,6 @@
         font-size     : 14px;
         align-self    : center;
         text-align    : left;
+        font-family   : Poppins;
     }
 }
