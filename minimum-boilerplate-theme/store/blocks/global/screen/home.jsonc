@@ -16,7 +16,8 @@
       "flex-layout.row#home__banner-bottom-large",
       "rich-text#home--five",
       "flex-layout.row#home__brands-slider",
-      "list-context.bullet-group",
+      "rich-text#politics-promo",
+      // "list-context.bullet-group",
       "whatsapp-button"
     ]
   },
