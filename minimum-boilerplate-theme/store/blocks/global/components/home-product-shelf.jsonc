@@ -1,9 +1,9 @@
 {
   "flex-layout.row#home__shelf-one": {
-    "title": "Vitrina uno",
+    "title": "Shelf uno",
     "children": ["list-context.product-list#home__shelf-one"],
     "props": {
-      "blockClass": "home__shelf-one"
+      "blockClass": "home__shelf"
     }
   },
   "list-context.product-list#home__shelf-one": {
@@ -19,7 +19,7 @@
       "product-summary-space",
       "product-summary-brand",
       "product-summary-name",
-      "product-summary-space",    
+      "product-summary-space",  
       "product-selling-price",
       "flex-layout.row#shelf__buy-quantity"
     ]

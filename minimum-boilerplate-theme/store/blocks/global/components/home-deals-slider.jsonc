@@ -1,12 +1,13 @@
 {
   "flex-layout.row#home__deals-slider": {
+    "title": "Deals Slider",
     "children": ["list-context.image-list#home__deals-slider"],
     "props": {
       "blockClass": "deals-slider"
     }
   },
   "list-context.image-list#home__deals-slider": {
-    "title": "Deals slider",
+    "title": "Deals slider list context",
     "children": [
       "slider-layout#home__deals-slider"
     ],
@@ -46,7 +47,7 @@
           }
         },
         {
-          "image":"https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/126fc84d-9a41-41db-94e1-594aea272e0f___3b769449e04bbef7912085847ab8c7b4.jpg",
+          "image":"https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/255ab8bf-ab19-4097-86b7-a11af3ae22ac___9b330a0b0d74419a8f4e7cb1bd4e4576.png",
           "description": "Slide deals 5",
           "link": {
             "openNewTab": true,
@@ -54,7 +55,7 @@
           }
         },
         {
-          "image":"https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/255ab8bf-ab19-4097-86b7-a11af3ae22ac___9b330a0b0d74419a8f4e7cb1bd4e4576.png",
+          "image":"https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/6b1e790d-9f20-49ca-8180-5a8349e50f70___3aba7669032a05a1fcb0bab37022c5be.jpg",
           "description": "Slide deals 6",
           "link": {
             "openNewTab": true,
@@ -62,16 +63,8 @@
           }
         },
         {
-          "image":"https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/6b1e790d-9f20-49ca-8180-5a8349e50f70___3aba7669032a05a1fcb0bab37022c5be.jpg",
-          "description": "Slide deals 7",
-          "link": {
-            "openNewTab": true,
-            "url": "/proximamente"
-          }
-        },
-        {
           "image":"https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/b62b8aa3-2b85-4372-aef8-6faf7c85e304___3c751ec0551981872508dce4fdf9f32f.png",
-          "description": "Slide deals 8",
+          "description": "Slide deals 7",
           "link": {
             "openNewTab": true,
             "url": "/proximamente"
