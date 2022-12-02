@@ -14,8 +14,8 @@
       "flex-layout.col#spacer",
       "flex-layout.col#search-bar",
       "flex-layout.col#spacer",
-      "flex-layout.col#login-desktop"
-      // "minicart.v2"
+      "flex-layout.col#login-desktop",
+      "minicart.v2"
     ]
   },
   "drawer#menu-desktop": {
