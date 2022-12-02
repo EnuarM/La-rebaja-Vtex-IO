@@ -1,0 +1,57 @@
+//Rich text titulo 1 - Categorias destacadas
+{
+  "rich-text#home--title__one": {
+    "title": "Titulo 1",
+    "props": {
+      "blockClass": "home-title",
+      "text": "Categorías destacadas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  //Rich text titulo 2 - Súper Descuentos
+  "rich-text#home--two": {
+    "title": "Titulo 2",
+    "props": {
+      "blockClass": "home-title",
+      "text": "Súper Descuentos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  //Rich text titulo 3 - Ofertas
+  "rich-text#home--three": {
+    "title": "Titulo 3",
+    "props": {
+      "blockClass": "home-title",
+      "text": "Ofertas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  //Rich text titulo 4 - Productos Destacados
+  "rich-text#home--four": {
+    "title": "Titulo 4",
+    "props": {
+      "blockClass": "home-title",
+      "text": "Productos Destacados",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  //Rich text titulo 5 - Marcas Destacadas
+  "rich-text#home--five": {
+    "title": "Titulo 5",
+    "props": {
+      "blockClass": "home-title",
+      "text": "Marcas Destacadas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  }
+}

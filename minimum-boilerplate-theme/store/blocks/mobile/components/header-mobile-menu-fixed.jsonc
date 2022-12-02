@@ -1,0 +1,24 @@
+{
+  "slider-layout#header-mobile__menu-fixed": {
+    "title": "Slider menu fixed",
+    "props": {
+      "itemsPerPage": {
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "mobileOnly",
+      "showPaginationDots": "never",
+      "blockClass": "carousel-menu-items"
+    },
+    "children": [
+      "menu-item#super-ofertas",
+      "menu-item#mundial", 
+      "menu-item#velitas",
+      "menu-item#para-niñ@s",
+      "menu-item#gripa",
+      "menu-item#merca-express",
+      "menu-item#un-look-genial"
+    ]
+  }
+}

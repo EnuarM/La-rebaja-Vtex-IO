@@ -1,0 +1,12 @@
+{
+  "flex-layout.row#product__breadcrumb": {
+    "title": "Product Breadcrumb",
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["flex-layout.col#product__breadcrumb"]
+  },
+  "flex-layout.col#product__breadcrumb": {
+    "children": ["breadcrumb"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "flex-layout.col#header-logo": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "header__middle--logo"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/logo-larebaja.png",
+      "width": "150"
+    }
+  }
+}

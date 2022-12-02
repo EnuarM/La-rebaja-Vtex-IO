@@ -1,0 +1,38 @@
+{
+  "flex-layout.col#login-desktop": {
+    "children": ["login"],
+    "props": {
+      "blockClass": "header__middle--login",
+      "verticalAlign": "middle"
+    }
+  },
+  "login": {
+    "props": {
+      "showIconProfile": false,
+      "logInButtonBehavior": "link",
+      "accountOptionsButtonBehavior": "popover",
+      "accountOptionLinks": [
+        {
+          "label": "Mi perfil",
+          "path": "/account",
+          "cssClass": "item-menu"
+        },
+        {
+          "label": "Mis direcciones",
+          "path": "/account",
+          "cssClass": "item-menu"
+        },
+        {
+          "label": "Mis pedidos",
+          "path": "/account",
+          "cssClass": "item-menu"
+        },
+        {
+          "label": "Mis listas",
+          "path": "/account",
+          "cssClass": "item-menu"
+        }
+      ]
+    }
+  }
+}

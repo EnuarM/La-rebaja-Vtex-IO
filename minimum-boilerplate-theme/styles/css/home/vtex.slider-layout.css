@@ -14,10 +14,22 @@
     overflow : visible !important;
 }
 
-/* .sliderTrack--home__slider {
-    transform: translate3d(-94.4444%, 0px, 0px);
-    width: 1800%;
-} */
+.slide--home__slider {
+    padding: 0 10px;
+}
+
+.imageElement--home__slider {
+    max-height: unset!important;
+}
+
+.sliderLayoutContainer--home__slider :global(.vtex-slider-layout-0-x-slide--home__slider--firstVisible) {
+    width: 4.34783% !important;
+}
+
+.slideChildrenContainer--home__slider {
+    position: relative;
+    z-index: 2;
+}
 
 .paginationDot {
     width    : 12px !important;

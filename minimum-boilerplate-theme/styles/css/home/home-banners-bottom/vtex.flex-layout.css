@@ -1,0 +1,30 @@
+@media screen and (min-width: 720px) {
+
+  .flexRow--home__banners-container {
+    max-width: 1380px;
+    width    : 94%;
+    margin   : auto;
+    margin-top: 50px;
+  }
+
+}
+
+@media print,
+screen and (min-width: 980px) {
+
+  .flexRowContent--home__banners-container {
+    width : 100%;
+    margin: auto auto 12px;
+  }
+
+}
+
+@media print, screen and (min-width: 1460px) {
+  .flexRowContent--home__banners-container {
+    padding: 0 16px;
+  }
+}
+
+.flexRow--home__banners-container :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}

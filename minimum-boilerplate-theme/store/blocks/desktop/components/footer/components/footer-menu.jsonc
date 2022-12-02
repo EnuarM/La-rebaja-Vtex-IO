@@ -1,0 +1,103 @@
+{
+  "flex-layout.row#footer__menu": {
+    "children": ["rich-text#footer__menu--title", "menu#footer__menu"],
+    "props": {
+      "width": "25%",
+      "blockClass": "footer-menu"
+    }
+  },
+  "rich-text#footer__menu--title": {
+    "title": "Title menu footer",
+    "props": {
+      "text": "#### Contáctanos",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "footer__menu-title"
+    }
+  },
+  "menu#footer__menu": {
+    "title": "Menu footer",
+    "props": {
+      "orientation": "vertical",
+      "width": "100%",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "menu-item#footer__menu--cali",
+      "menu-item#footer__menu--pais",
+      "menu-item#footer__menu--celular",
+      "menu-item#footer__menu--correo",
+      "menu-item#footer__menu--pqrs"
+    ]
+  },
+  "menu-item#footer__menu--cali": {
+    "props": {
+      "id": "footer__menu--cali",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "footer__menu--cali",
+        "text": "En Cali: (602) 485-2289"
+      }
+    }
+  },
+  "menu-item#footer__menu--pais": {
+    "props": {
+      "id": "footer__menu--pais",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "footer__menu--pais",
+        "text": "Resto del pais: 018000939900"
+      }
+    }
+  },
+  "menu-item#footer__menu--celular": {
+    "props": {
+      "id": "footer__menu--celular",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "footer__menu--celular",
+        "text": "Celular: 320 3509825"
+      }
+    }
+  },
+  "menu-item#footer__menu--correo": {
+    "props": {
+      "id": "footer__menu--correo",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "footer__menu--correo",
+        "text": "Correo: servicio_cliente@copservir.com"
+      }
+    }
+  },
+  "menu-item#footer__menu--pqrs": {
+    "props": {
+      "id": "footer__menu--pqrs",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "footer__menu--pqrs",
+        "text": "PQRS (Preguntas, quejas, reclamos, sugerencias)"
+      }
+    }
+  }
+}

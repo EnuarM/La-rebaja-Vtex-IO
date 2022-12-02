@@ -1,0 +1,98 @@
+{
+  "tab-layout#home__special-offers": {
+    "children": [
+      "tab-list#home__special-offers",
+      "tab-content#home__special-offers"
+    ],
+    "props": {
+      "blockClass": "tab-special-offers",
+      "defaultActiveTabId": ""
+    }
+  },
+  "tab-list#home__special-offers": {
+    "children": [
+      "tab-list.item#bebe",
+      "tab-list.item#mujer",
+      "tab-list.item#hombre",
+      "tab-list.item#hogar",
+      "tab-list.item#cuidate"
+    ],
+    "props": {
+      "blockClass": "tab-list-special-offers"
+    }
+  },
+  "tab-list.item#bebe": {
+    "props": {
+      "tabId": "bebe",
+      "label": "Bebé",
+      "blockClass": "item-special-offers"
+    }
+  },
+  "tab-list.item#mujer": {
+    "props": {
+      "tabId": "mujer",
+      "label": "Mujer",
+      "blockClass": "item-special-offers"
+    }
+  },
+  "tab-list.item#hombre": {
+    "props": {
+      "tabId": "hombre",
+      "label": "Hombre",
+      "blockClass": "item-special-offers"
+    }
+  },
+  "tab-list.item#hogar": {
+    "props": {
+      "tabId": "hogar",
+      "label": "Hogar",
+      "blockClass": "item-special-offers"
+    }
+  },
+  "tab-list.item#cuidate": {
+    "props": {
+      "tabId": "cuidate",
+      "label": "Cuídate en Casa",
+      "blockClass": "item-special-offers"
+    }
+  },
+  "tab-content#home__special-offers": {
+    "children": [
+      "tab-content.item#bebe",
+      "tab-content.item#mujer",
+      "tab-content.item#hombre",
+      "tab-content.item#hogar",
+      "tab-content.item#cuidate"
+    ]
+  },
+  "tab-content.item#bebe": {
+    "props": {
+      "tabId": "bebe"
+    },
+    "children": ["flex-layout.row#home__shelf-offers-one"]
+  },
+  "tab-content.item#mujer": {
+    "props": {
+      "tabId": "mujer"
+    },
+    "children": ["flex-layout.row#home__shelf-offers-two"]
+  },
+  "tab-content.item#hombre": {
+    "props": {
+      "tabId": "hombre"
+    },
+    "children": ["flex-layout.row#home__shelf-offers-three"]
+  },
+  "tab-content.item#hogar": {
+    "props": {
+      "tabId": "hogar"
+    },
+    "children": ["flex-layout.row#home__shelf-offers-four"]
+  },
+  "tab-content.item#cuidate": {
+    "props": {
+      "tabId": "cuidate"
+    },
+    "children": ["flex-layout.row#home__shelf-one"]
+  }
+}

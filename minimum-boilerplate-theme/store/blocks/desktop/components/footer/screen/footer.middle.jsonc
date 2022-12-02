@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#footer__middle--newsletter": {
+    "props": {
+      "blockClass": "footer__newsletter"
+    },
+    "children": [
+      "flex-layout.row#footer__middle--message",
+      "flex-layout.row#footer__middle--input"
+    ]
+  }
+}

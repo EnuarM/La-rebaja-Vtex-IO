@@ -1,0 +1,45 @@
+{
+  "modal-trigger#global__quick-view": {
+    "children": [
+      "rich-text#global__quick-view-trigger",
+      "modal-layout#global__quick-view-modal"
+    ]
+  },
+  "rich-text#global__quick-view-trigger": {
+    "title": "Trigger Quick view",
+    "props": {
+      "text": "Vista rapida",
+      "blockClass": "quick-view-trigger"
+    }
+  },
+  "modal-layout#global__quick-view-modal": {
+    "children": [
+      "flex-layout.row#global__quick-view"
+    ]
+  },
+  "flex-layout.row#global__quick-view": {
+    "children": [
+      "flex-layout.col#quick-view-image",
+      "flex-layout.col#quick-view-summary"
+    ]
+  },
+  "flex-layout.col#quick-view-image": {
+    "children": ["product-images"]
+  },
+  "flex-layout.col#quick-view-summary": {
+    "children": [
+      "product-summary-brand",
+      "product-summary-name",
+      "product-identifier.product",
+      "product-selling-price",
+      "add-to-cart-button"
+    ]
+  },
+  "product-identifier.product": {
+    "props": {
+      "label": "default", //'default' | 'custom' | 'hide'
+      "customLabel": "teste", // text if label is custom
+      "idField": "skuReferenceId" //'itemId' | 'productId' | 'productReference' | 'skuEan' | 'skuReferenceId'
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "flex-layout.row#home__banner-bottom-large": {
+    "children": ["list-context.image-list#home__banner-bottom-large"],
+    "props": {
+      "blockClass": "home__banner-container-large"
+    }
+  },
+  "list-context.image-list#home__banner-bottom-large": {
+    "children": ["slider-layout#home__banner-bottom-large"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/6444e5fc-5068-453c-ac65-ebba023ecde3___52a7db3d224ca509fbcb7259134cef46.jpg",
+          "description": "Banner large"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__banner-bottom-large": {
+    "props": {
+      "blockClass": "slider-banner-large",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "autoplay": {
+        "timeout": 4000
+      }
+    }
+  }
+}

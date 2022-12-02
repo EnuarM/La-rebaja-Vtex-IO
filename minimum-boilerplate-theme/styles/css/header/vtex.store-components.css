@@ -1,6 +1,90 @@
+.logoImage {
+    max-width: fit-content;
+    margin: auto;
+    width: 100%;
+}
+
 .imageElement--empty-image{
     align-items: center;
     width: 80px;
     max-height: 80px;
     margin-bottom: 20px;
+}
+
+.searchBarInnerContainer {
+    width: 100%;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border: none;
+    background: #f5f5f5;
+    border-radius: 50px;
+}
+
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 34px;
+    color: #1a1919;
+    font-family: Poppins;
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 34px;
+    color: #1a1919;
+    font-family: Poppins;
+}
+
+.searchBarContainer :global(.vtex-input__suffix) {
+    background: transparent;
+}
+
+.suffixWrapper {
+    align-items: center;
+}
+
+.searchBarIcon--search {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0!important;
+}
+
+.searchBarIcon--search :global(.vtex-store-components-3-x-searchIcon){
+    width: 24px;
+    height: 24px;
+    background: url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icons/icon-search___dad92376926f9937514fbcdd97021a56.svg);
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+.searchBarIcon--clear {
+    padding: 0;
+}
+
+.searchBarIcon :global(.vtex-store-components-3-x-closeIcon){
+    width: 24px;
+    height: 24px;
+    background: url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icons/close-menu___766bdb25a2ee346d7902c8d9602b016b.svg);
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    color: transparent;
+    transform: scale(.75);
+}
+
+@media screen and (min-width: 1600px) {
+    .searchBarContainer {
+        width: 600px;
+    }    
 }

@@ -1,0 +1,79 @@
+{
+  "flex-layout.row#home__banners-bottom": {
+    "children": [
+      "flex-layout.col#home__banners-bottom-left",
+      "flex-layout.col#home__banners-bottom-right"
+    ],
+    "props": {
+      "blockClass": "home__banners-container"
+    }
+  },
+  "flex-layout.col#home__banners-bottom-left": {
+    "title": "Banners bottom left",
+    "children": ["list-context.image-list#home__banners-bottom-left"]
+  },
+  "list-context.image-list#home__banners-bottom-left": {
+    "children": ["slider-layout#home__banners-bottom-left"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/98469c99-eb6e-4dd4-8896-44549ab7a000___e2178d45789f2a355d22072c4c94f6b0.jpg",
+          "description": "Banners bottom left"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__banners-bottom-left": {
+    "props": {
+      "blockClass": "slider-left-banners",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "autoplay": {
+        "timeout": 4000
+      }
+    }
+  },
+  "flex-layout.col#home__banners-bottom-right": {
+    "title": "Banners bottom right",
+    "children": ["list-context.image-list#home__banners-bottom-right"]
+  },
+  "list-context.image-list#home__banners-bottom-right": {
+    "children": ["slider-layout#home__banners-bottom-right"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/33eccf89-7fc9-44bf-9084-43d03a29a150___99f5cc951735a39e3a7702686d124611.jpg",
+          "description": "Banner 1 bottom right"
+        },
+        {
+          "image": "https://copservir.vtexassets.com/assets/vtex.file-manager-graphql/images/36840df4-3b98-4b93-ab49-9d31f078d4e7___4657d1532899813ecac6f11f6d9b6188.jpg",
+          "description": "Banner 2 bottom right"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__banners-bottom-right": {
+    "props": {
+      "blockClass": "slider-right-banners",
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 2
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "infinite": true,
+      "autoplay": {
+        "timeout": 4000
+      }
+    }
+  }
+}

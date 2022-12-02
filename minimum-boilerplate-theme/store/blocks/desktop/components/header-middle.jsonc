@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#desktop": {
+  "flex-layout.row#header__middle": {
     "title": "Header middle",
     "props": {
       "blockClass": "header-middle",
@@ -10,18 +10,13 @@
     },
     "children": [
       "drawer#menu-desktop",
-      "flex-layout.col#logo-desktop",
+      "flex-layout.col#header-logo",
       "flex-layout.col#spacer",
-      "search-bar",
-      "login",
+      "flex-layout.col#search-bar",
+      "flex-layout.col#spacer",
+      "flex-layout.col#login-desktop",
       "minicart.v2"
     ]
-  },
-  "login": {
-    "props": {
-      "showIconProfile": true,
-      "iconLabel": "Mi cuenta"
-    }
   },
   "drawer#menu-desktop": {
     "children": ["menu#drawer-desktop"]
@@ -36,26 +31,6 @@
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow" // Este width maneja el spacer
-    }
-  },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo"]
-  },
-  "logo": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/img/logo-larebaja.png",
-      "width": "150"
-    }
-  },
-  "search-bar": {
-    "blocks": ["autocomplete-result-list.v2"],
-    "props": {
-      "openAutocompleteOnFocus": true
     }
   }
 }

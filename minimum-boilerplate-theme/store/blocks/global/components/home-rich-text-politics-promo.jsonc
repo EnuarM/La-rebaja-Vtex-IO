@@ -1,0 +1,9 @@
+{
+  "rich-text#politics-promo": {
+    "title": "Promo politics text",
+    "props": {
+      "blockClass": "promo-politics",
+      "text": ""
+    }
+  }
+}

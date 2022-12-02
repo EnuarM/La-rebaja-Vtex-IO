@@ -1,0 +1,10 @@
+.menuContainer--menu-footer {
+    display: block;
+}
+
+.menuContainer--menu-footer :global(.vtex-menu-2-x-styledLinkContainer) {
+    margin: 0;
+    padding: 2px 0;
+    font-size: 12px!important;
+    transition: all .3s ease;
+}

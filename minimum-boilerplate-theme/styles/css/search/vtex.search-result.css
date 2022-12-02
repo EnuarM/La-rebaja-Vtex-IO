@@ -1,0 +1,456 @@
+/* -------FILTROS----- */
+.filters--layout {
+    position: relative;
+}
+
+.filtersWrapper--filters,
+.filters--layout {
+    display       : flex;
+    flex-direction: column;
+}
+:global(.vtex-search-result-3-x-filter__container--title) {
+    padding: 0 !important;
+    border : none !important;
+}
+
+.filter__container:first-child {
+    border-radius: 20px 20px 0 0;
+}
+
+.filter__container--selectedFilters {
+    order        : -1!important;
+    margin-bottom: 30px!important;
+    width        : 100%!important;
+    padding      : 0!important;
+    background   : #f5f5f5!important;
+    border       : 1px solid #e1e1e1!important;
+    border-radius: 20px!important;
+}
+
+.filter__container--selectedFilters::before {
+    content                : "Filtros aplicados";
+    display                : block;
+    margin                 : 0;
+    padding                : 7px;
+    background-color       : #dd1e2f;
+    color                  : #fff;
+    border-top-left-radius : 20px;
+    border-top-right-radius: 20px;
+    font-family            : Poppins;
+    font-style             : normal;
+    font-weight            : 600;
+    font-size              : 18px;
+    line-height            : 27px;
+    display                : flex;
+    align-items            : center;
+    text-align             : center;
+    justify-content        : center;
+}
+
+.filterSelected--filters {
+    display: none;
+}
+
+.filter, 
+.filter :first-child {
+    outline: none;
+}
+
+.filterMessage--filters {
+    margin          : 0;
+    display         : flex;
+    align-items     : center;
+    font-size       : 0;
+    background-color: #dd1e2f;
+    height          : 40px;
+    justify-content : center;
+    border-radius   : 20px 20px 0 0;
+}
+
+.filterMessage--filters::before {
+    content     : "";
+    display     : inline-flex;
+    width       : 10px;
+    height      : 10px;
+    background  : url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icon-filter___2f7f0e0….svg);
+    transform   : scale(1.6);
+    margin-right: 10px;
+}
+
+.filterMessage--filters::after {
+    content        : "Filtrar por:";
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    color          : #fff;
+    font-family    : Poppins;
+    font-style     : normal;
+    font-weight    : 600;
+    font-size      : 18px;
+    line-height    : 27px;
+}
+.filterTitle {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.filterTitleSpan {
+    overflow: hidden;
+}
+
+.filterTemplateOverflow--filters {
+    padding: 10px 10px 0;
+    overflow: hidden;
+}
+
+.filterItem--filters {
+    color         : #333;
+    font-size     : 14px;
+    font-weight   : 400;
+    font-style    : normal;
+    font-family: Poppins;
+    letter-spacing: normal;
+    line-height   : 19px;
+    text-transform: capitalize;
+    margin-bottom : 9px;
+    display       : inline-flex;
+    margin-right  : 12px;
+}
+
+.selectedFilterItem--filters {
+    width           : fit-content;
+    background-color: #e8e8e8;
+    border-radius   : 25px;
+    margin-right    : 8px;
+}
+
+/* :global(.vtex-checkbox__line-container) {
+    padding   : 4px 9px;
+}
+
+:global(.vtex-checkbox__container) {
+    align-self: center;
+    margin-right: 12px;
+}
+:global(.vtex-checkbox__inner-container){
+    background: transparent!important;
+    border: 0;
+}
+
+.filter__container--selectedFilters :global(.vtex-checkbox__box-wrapper){
+    border: 0  ;
+}
+:global(.vtex-checkbox__box-wrapper) {
+    border-radius: 2px;
+    border: 2px solid #dd1e2f;
+}
+
+.filter__container--selectedFilters :global(.vtex-checkbox__box) {
+    background-image   : url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icons/icon-close-red___37b357b….svg);
+    background-position: 50%;
+    background-repeat  : no-repeat;
+    background-size    : 80%;
+}
+
+.filter__container--selectedFilters :global(.vtex__icon-check){
+    display: none;
+}
+
+:global(.vtex__icon-check) {
+    color: #dd1e2f;
+    position: relative;
+    left: -0.5px;
+    transform: scale(1.5);
+    stroke: #f5f5f5;
+} */
+
+.filter__container {
+    padding: 0 18px;
+    border: 1px solid #e1e1e1;
+    border-top: 0 solid #e1e1e1;
+    background: #f5f5f5;
+}
+
+:global(.vtex-search-result-3-x-filterIcon) {
+    color: #dd1e2f;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #dd1e2f;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 50%;
+}
+
+:global(.vtex-search-result-3-x-caretIcon){
+    position: absolute;
+    top: 3px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items: flex-start;
+    left: 3px;
+    transform: none;
+}
+
+.filter__container:last-child {
+    border-width: 1px;
+    border-radius: 0 0 20px 20px;
+}
+
+:global(.vtex-slider__base-internal){
+    background-color: #bdbdbd;
+}
+
+:global(.vtex-slider__selector) {
+    background: url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icon-slider-filter___d052af8….png);
+    width: 15px!important;
+    height: 15px!important;
+    background-size: contain;
+}
+:global(.vtex-slider__values-container) {
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+:global(.vtex-slider__values-container)::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    background: url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/steps-filter-price___b077cdb….png);
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    margin-bottom: 2.5px;
+}
+
+:global(.vtex-slider__left-value),
+:global(.vtex-slider__right-value) {
+    opacity: .8;
+    color: #333;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* ------SWITCHER Y ORDER BY------- */
+.totalProducts--layout {
+    color         : #333;
+    font-size     : 13px;
+    font-weight   : 400;
+    font-style    : normal;
+    letter-spacing: normal;
+    line-height   : 19px;
+    text-align    : right;
+    position      : relative;
+    padding       : 0 10px 0 0;
+    width         : 5px;
+}
+
+.totalProductsMessage {
+    font-size: 0;
+}
+
+.totalProductsMessage::before {
+    font-size     : 0;
+    font-family   : Poppins;
+    content       : "Productos encontrados";
+    color         : #333;
+    font-size     : 13px;
+    font-weight   : 400;
+    font-style    : normal;
+    letter-spacing: normal;
+    line-height   : 19px;
+    text-align    : left;
+    display       : inline-block;
+    text-transform: capitalize;
+}
+
+.totalProductsMessage::after {
+    content   : "";
+    display   : inline-block;
+    width     : 2px;
+    height    : 16px;
+    background: #333;
+    position  : absolute;
+    left      : 100%;
+    top       : 3.5px;
+}
+
+
+.galleryLayoutSwitcher--layoutSwitcher {
+    padding-right: 10px;
+    padding-left : 12px;
+}
+
+.galleryLayoutSwitcher--layoutSwitcher:last-child {
+    position: relative;
+}
+
+.galleryLayoutSwitcher--layoutSwitcher::after {
+    content   : "";
+    display   : inline-block;
+    width     : 2px;
+    height    : 16px;
+    background: #333;
+    position  : absolute;
+    right     : -5px;
+    top       : 3.5px;
+}
+
+
+.galleryLayoutOptionButton--grid {
+    background         : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='76' height='24' viewBox='0 0 76 24'%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M0 0h16v24H0z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M40 0h16v24H40z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M20 0h16v24H20z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M60 0h16v24H60z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    width              : 90px;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-position: 50%;
+    height             : 28px;
+    margin             : 0 15px;
+    padding            : 0;
+}
+
+.galleryLayoutOptionButton--grid--selected {
+    background         : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='76' height='24' viewBox='0 0 76 24'%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23dd1e2f' d='M0 0h16v24H0z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23dd1e2f' d='M40 0h16v24H40z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23dd1e2f' d='M20 0h16v24H20z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23dd1e2f' d='M60 0h16v24H60z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    width              : 90px;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-position: 50%;
+    height             : 28px;
+    margin             : 0 15px;
+    padding            : 0;
+}
+
+.galleryLayoutOptionButton--list {
+    background         : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='24' viewBox='0 0 36 24'%3E%3Cg%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M0 0h16v10H0z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M20 0h16v3H20z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M20 14h16v3H20z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M20 7h16v3H20z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M20 21h16v3H20z'/%3E%3C/g%3E%3Cg%3E%3Cpath fill='%23e1e1e1' d='M0 14h16v10H0z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    margin             : 0;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-position: 50%;
+    width              : 38px;
+    height             : 28px;
+    margin             : 0 15px;
+    padding            : 0;
+}
+
+.galleryLayoutOptionButton--list--selected {
+    background         : url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icon-layout2-red___0757aca68d57b0bdebcfdf94188952a5.svg) !important;
+    margin             : 0 !important;
+    background-size    : cover !important;
+    background-repeat  : no-repeat !important;
+    background-position: 50% !important;
+    width              : 38px !important;
+    height             : 28px !important;
+    margin             : 0 15px !important;
+    padding            : 0 !important;
+}
+
+.orderByDropdown--orderBy--layout {
+    display    : flex;
+    align-items: center;
+    padding    : 0;
+}
+
+.orderByDropdown--orderBy--layout::before {
+    display        : flex;
+    align-items    : center;
+    justify-content: stretch;
+    content        : "Ordenar por:";
+    color          : #333;
+    font-size      : 14px;
+    font-weight    : 400;
+    font-family    : Poppins;
+    line-height    : 19px;
+    text-align     : left;
+    margin         : 0 10px;
+    white-space    : nowrap;
+    text-transform : unset;
+}
+
+.orderByButton--orderBy--layout {
+    width          : 205px;
+    height         : 40px;
+    border-radius  : 20px;
+    border         : 1px solid #bdbdbd;
+    padding        : 9px 15px !important;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    text-transform : unset;
+}
+
+.orderByText--orderBy--layout {
+    display: none;
+}
+
+.filterPopupArrowIcon--orderBy--layout {
+    background         : url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icon-select-order___d2f6140….png);
+    background-position: 50%;
+    background-repeat  : no-repeat;
+    background-size    : contain;
+    width              : 20px;
+    height             : 20px;
+    padding            : 0 !important;
+}
+
+.filterPopupArrowIcon--orderBy--layout :global(.vtex-search-result-3-x-caretIcon) {
+    display: none;
+}
+
+.orderByOptionsContainer {
+    position        : absolute !important;
+    border-radius   : 20px;
+    max-width       : 205px;
+    background-color: #f5f5f5;
+}
+
+.filterPopupTitle--orderBy--layout {
+    font-family   : Poppins;
+    text-transform: capitalize;
+    font-size     : 14px;
+    font-weight   : 500;
+    color         : #3f3f40;
+}
+
+.orderByOptionItem {
+    font-family     : Poppins;
+    text-transform  : capitalize;
+    font-size       : 14px;
+    font-weight     : 500;
+    color           : #3f3f40;
+    background-color: #f5f5f5;
+    margin-right    : 10px;
+}
+
+.orderByOptionItem:first-child {
+    border-top-left-radius : 20px;
+    border-top-right-radius: 20px;
+    background-color       : #f5f5f5;
+}
+
+.orderByOptionItem:last-child {
+    border-bottom-left-radius : 20px;
+    border-bottom-right-radius: 20px;
+    background-color          : #f5f5f5;
+}
+
+.orderByOptionItem--selected {
+    background: #dd1e2f !important;
+    color     : #fff !important;
+}
+
+.gallery {
+    padding-left: 1.5rem;
+}
+
+.galleryItem--grid {
+    padding-left: 6px;
+    padding-right: 6px;
+}

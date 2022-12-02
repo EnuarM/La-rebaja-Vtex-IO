@@ -1,0 +1,16 @@
+@media screen and (min-width: 720px){
+  .flexRow--deals-slider {
+    max-width: 1380px;
+    width: 94%;
+    margin: auto;
+  }
+}
+
+.flexRow--deals-slider {
+  margin: 50px auto;
+}
+
+.flexRow--deals-slider :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+

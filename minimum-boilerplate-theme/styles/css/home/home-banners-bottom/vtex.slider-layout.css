@@ -1,0 +1,17 @@
+.slide--slider-left-banners {
+  border-radius: 6px;
+  overflow     : hidden;
+  border       : 0 solid transparent;
+  transition   : all .2s ease;
+  box-sizing   : border-box;
+  padding      : 0 15px;
+}
+
+.slide--slider-right-banners {
+  border-radius: 6px;
+  overflow     : hidden;
+  border       : 0 solid transparent;
+  transition   : all .2s ease;
+  box-sizing   : border-box;
+  padding      : 0 4px;
+}

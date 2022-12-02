@@ -1,0 +1,17 @@
+.sliderLayoutContainer--brands-slider {
+  padding-left : 50px;
+  padding-right: 50px;
+}
+
+.slideChildrenContainer--brands-slider {
+  padding-left : 0.6rem;
+  padding-right: 0.6rem;
+}
+
+
+@media print,
+screen and (min-width: 980px) {
+  .sliderTrackContainer--brands {
+    padding-bottom: 45px;
+  }
+}
