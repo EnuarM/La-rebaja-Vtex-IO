@@ -1,0 +1,24 @@
+@media screen and (min-width: 720px) {
+
+  .flexRow--home__banner-container-large {
+    max-width: 1380px;
+    width    : 94%;
+    margin   : auto;
+  }
+
+}
+
+@media print, screen and (min-width: 1460px) {
+  .flexRowContent--home__banner-container-large {
+    padding: 0 22px;
+  }
+}
+
+.flexRow--home__banner-container-large :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRowContent--home__banner-container-large {
+  width: 100%;
+  margin: auto;
+}
