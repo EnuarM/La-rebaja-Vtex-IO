@@ -12,6 +12,9 @@
       "flex-layout.row#home__deals-slider",
       "rich-text#home--four",
       "tab-layout#home__special-offers",
+      "flex-layout.row#home__banners-bottom",
+      "flex-layout.row#home__banner-bottom-large",
+      "rich-text#home--five",
       "list-context.bullet-group",
       "whatsapp-button"
     ]

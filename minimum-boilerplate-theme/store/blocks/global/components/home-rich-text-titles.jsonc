@@ -42,5 +42,16 @@
       "textPosition": "CENTER",
       "font": "t-heading-2"
     }
+  },
+  //Rich text titulo 5 - Marcas Destacadas
+  "rich-text#home--five": {
+    "title": "Titulo 5",
+    "props": {
+      "blockClass": "home-title",
+      "text": "Marcas Destacadas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
   }
 }
