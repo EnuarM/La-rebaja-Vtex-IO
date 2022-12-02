@@ -1,0 +1,53 @@
+@media screen and (min-width: 767px) {
+
+  .sliderLayoutContainer--home__shelf-one {
+    padding: 0 20px !important;
+  }
+
+}
+
+.sliderTrackContainer--home__shelf-one {
+  overflow: hidden;
+  padding : 32px 0;
+}
+
+.slide--home__shelf-one {
+  margin-bottom: 0;
+  padding-left : 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.sliderLeftArrow--home__shelf-one {
+  left: -3px;
+}
+
+.sliderArrows--home__shelf-one {
+  color           : #dd1e2f;
+  width           : 35px;
+  height          : 35px;
+  background-color: #fff !important;
+  border-radius   : 50%;
+  box-shadow      : 0 5px 5px rgb(0 0 0 / 25%);
+  overflow        : hidden;
+  padding         : 0;
+  top             : 30%;
+  margin          : 0;
+}
+
+.paginationDotsContainer--home__shelf-one {
+  bottom: 0;
+  width : 100%;
+}
+
+
+.paginationDot--home__shelf-one {
+  background-color: #c1c1c1;
+  width           : 12px !important;
+  min-width       : 12px !important;
+  height          : 12px !important;
+  transition      : all .2s ease;
+}
+
+.paginationDot--home__shelf-one--isActive {
+  background-color: #dd1e2f;
+}

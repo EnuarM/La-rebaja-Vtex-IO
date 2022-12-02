@@ -1,0 +1,65 @@
+.sliderLayoutContainer--home__deals-slider {
+  max-width: 1338px;
+  width    : 100vw !important;
+}
+
+.slide--home__deals-slider {
+  overflow  : hidden;
+  border    : 0 solid transparent;
+  margin    : 0 6px;
+  padding   : 0;
+  transition: all .2s ease;
+  box-sizing: border-box;
+  position  : relative;
+}
+
+.imageElement--home__deals-slider {
+  border-radius: 20px;
+  overflow     : hidden;
+}
+
+.sliderArrows--home__deals-slider {
+  color           : #dd1e2f;
+  width           : 35px;
+  height          : 35px;
+  background-color: #fff !important;
+  border-radius   : 50%;
+  padding         : 0;
+  box-shadow      : 0 5px 5px rgb(0 0 0 / 25%);
+  overflow        : hidden;
+}
+
+.paginationDotsContainer--home__deals-slider {
+  bottom: -35px;
+}
+
+
+.paginationDot--home__deals-slider {
+  background-color: #c1c1c1;
+  width           : 12px !important;
+  min-width       : 12px !important;
+  height          : 12px !important;
+  transition      : all .2s ease;
+}
+
+.paginationDot--home__deals-slider--isActive {
+  background-color: #dd1e2f;
+}
+@media print,
+screen and (min-width: 980px) {
+  .slide--home__deals-slider {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .slide--home__deals-slider {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .sliderArrows--home__deals-slider {
+    margin: 0;
+  }
+}

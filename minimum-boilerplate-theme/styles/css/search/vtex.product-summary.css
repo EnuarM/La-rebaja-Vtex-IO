@@ -1,10 +1,11 @@
-.containerNormal {
+.containerNormal--listLayout {
     max-width: 100% !important;
     overflow : initial;
     margin   : auto;
 }
 
-.imageContainer {
+.element--gridLayout___container :global(.vtex-product-summary-2-x-imageContainer),
+.element--listLayout :global(.vtex-product-summary-2-x-imageContainer){
     height: 180px;
 }
 
@@ -80,8 +81,6 @@
     text-align: center;
     font-family: Poppins;
 }
-
-
 
 .containerNormal:hover {
     border: 1px solid #e1e1e1;

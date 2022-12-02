@@ -6,7 +6,11 @@
       "rich-text#home--title__one",
       "list-context.image-list#home__icon-slider",
       "rich-text#home--two",
-      // "list-context.product-list#demo1",
+      "flex-layout.row#home__shelf-one",
+      "rich-text#home--three",
+      "flex-layout.row#home__shelf-one",
+      "flex-layout.row#home__deals-slider",
+      "rich-text#home--four",
       "list-context.bullet-group",
       "whatsapp-button"
     ]

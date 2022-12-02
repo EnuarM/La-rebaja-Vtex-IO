@@ -40,7 +40,10 @@
     }
   },
   "product-summary.shelf#listLayout": {
-    "children": ["flex-layout.row#search__listLayout"]
+    "children": ["flex-layout.row#search__listLayout"],
+    "props": {
+      "blockClass" :"listLayout"
+    }
   },
     "flex-layout.row#search__listLayout": {
       "children": [

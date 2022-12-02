@@ -20,5 +20,27 @@
       "textPosition": "CENTER",
       "font": "t-heading-2"
     }
+  },
+  //Rich text titulo 3 - Ofertas
+  "rich-text#home--three": {
+    "title": "Titulo 3",
+    "props": {
+      "blockClass": "home-title",
+      "text": "Ofertas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  //Rich text titulo 4 - Productos Destacados
+  "rich-text#home--four": {
+    "title": "Titulo 4",
+    "props": {
+      "blockClass": "home-title",
+      "text": "Productos Destacados",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
   }
 }
