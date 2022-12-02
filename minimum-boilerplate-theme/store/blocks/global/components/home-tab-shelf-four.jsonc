@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#home__shelf-offers-four": {
+    "title": "Shelf four offers",
+    "children": ["list-context.product-list#home__shelf-offers-four"],
+    "props": {
+      "blockClass": "home__shelf"
+    }
+  },
+  "list-context.product-list#home__shelf-offers-four": {
+    "blocks": ["product-summary.shelf#home__shelf-one"],
+    "children": ["slider-layout#home__shelf-one"],
+    "props": {
+      "category": "10"
+    }
+  },
+  "slider-layout#home__shelf-one": {
+    "title": "Shelf one slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "fullWidth": false,
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "home__shelf-one"
+    }
+  }
+}

@@ -1,5 +1,9 @@
-.flexRow--home__shelf-one :global(.vtex-store-components-3-x-container) {
-  padding: 0;
+.flexRow--home__shelf :global(.vtex-store-components-3-x-container) {
+  padding  : 0;
+  max-width: 1380px;
+  width    : 94%;
+  margin   : auto;
+
 }
 
 .flexRowContent--buyBlock :global(.vtex-button) {
