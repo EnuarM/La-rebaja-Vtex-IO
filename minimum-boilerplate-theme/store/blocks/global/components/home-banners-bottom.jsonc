@@ -10,8 +10,7 @@
   },
   "flex-layout.col#home__banners-bottom-left": {
     "title": "Banners bottom left",
-    "children": ["list-context.image-list#home__banners-bottom-left"],
-    "props": {}
+    "children": ["list-context.image-list#home__banners-bottom-left"]
   },
   "list-context.image-list#home__banners-bottom-left": {
     "children": ["slider-layout#home__banners-bottom-left"],
@@ -43,8 +42,7 @@
   },
   "flex-layout.col#home__banners-bottom-right": {
     "title": "Banners bottom right",
-    "children": ["list-context.image-list#home__banners-bottom-right"],
-    "props": {}
+    "children": ["list-context.image-list#home__banners-bottom-right"]
   },
   "list-context.image-list#home__banners-bottom-right": {
     "children": ["slider-layout#home__banners-bottom-right"],

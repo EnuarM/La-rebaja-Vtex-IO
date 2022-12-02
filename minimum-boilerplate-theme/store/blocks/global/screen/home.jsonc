@@ -15,6 +15,7 @@
       "flex-layout.row#home__banners-bottom",
       "flex-layout.row#home__banner-bottom-large",
       "rich-text#home--five",
+      "flex-layout.row#home__brands-slider",
       "list-context.bullet-group",
       "whatsapp-button"
     ]
