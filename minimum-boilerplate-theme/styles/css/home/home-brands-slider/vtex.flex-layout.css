@@ -1,0 +1,14 @@
+@media screen and (min-width: 720px) {
+  .flexRow--home__brands-slider {
+    max-width: 1380px;
+    width    : 94%;
+    margin   : auto;
+  }
+}
+
+@media print,
+screen and (min-width: 980px) {
+  .flexRowContent--home__brands-slider {
+    margin: 20px auto;
+  }
+}
