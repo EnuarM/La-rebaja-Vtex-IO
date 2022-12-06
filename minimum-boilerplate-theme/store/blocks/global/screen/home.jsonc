@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "responsive-layout.desktop#home__banner--cta",
+      // "list-context.bullet-group",
       "flex-layout.row#home__main-slider",
       "rich-text#home--title__one",
       "list-context.image-list#home__icon-slider",
@@ -17,7 +18,6 @@
       "rich-text#home--five",
       "flex-layout.row#home__brands-slider",
       "rich-text#politics-promo",
-      // "list-context.bullet-group",
       "whatsapp-button"
     ]
   },
@@ -29,25 +29,65 @@
       "width": 70,
       "height": 70
     }
-  },
-  "list-context.bullet-group": {
-    "props": {
-      "bullets": [
-        {
-          "image": "mi-imagen.png",
-          "titleBullet": "Computadores",
-          "link": {
-            "url": "/"
-          }
-        },
-        {
-          "image": "mi-imagen.png",
-          "titleBullet": "Ropa",
-          "link": {
-            "url": "/"
-          }
-        }
-      ]
-    }
   }
+  // "list-context.bullet-group": {
+  //   "children": ["slider-layout#bullet-group"],
+  //   "title": "Mi contexto de lista de Bullets",
+  //   "props": {
+  //     "bullets": [
+  //       {
+  //         "image": "mi-imagen.png",
+  //         "titleBullet": "Computadores",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       },
+  //       {
+  //         "image": "mi-imagen.png",
+  //         "titleBullet": "Ropa",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       },
+  //       {
+  //         "image": "mi-imagen.png",
+  //         "titleBullet": "Computadores",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       },
+  //       {
+  //         "image": "mi-imagen.png",
+  //         "titleBullet": "Ropa",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       },
+  //       {
+  //         "image": "mi-imagen.png",
+  //         "titleBullet": "Computadores",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       },
+  //       {
+  //         "image": "mi-imagen.png",
+  //         "titleBullet": "Ropa",
+  //         "link": {
+  //           "url": "/"
+  //         }
+  //       }
+  //     ]
+  //   }
+  // },
+  // "slider-layout#bullet-group": {
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 5,
+  //       "tablet": 3,
+  //       "phone": 1
+  //     },
+  //     "infinite": true
+  //   }
+  // }
 }
