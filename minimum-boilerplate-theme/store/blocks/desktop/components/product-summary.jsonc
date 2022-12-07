@@ -1,21 +1,24 @@
 {
-  "flex-layout.row#product__layout": {
-    "title": "Product View",
-    "children": ["flex-layout.row#product__info"]
-  },
   "flex-layout.row#product__info": {
     "title": "Product summary",
     "children": [
       "flex-layout.col#product__images",
       "flex-layout.col#product__summary"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__content-desktop"
+    }
   },
   "flex-layout.col#product__images": {
     "title": "Product images",
-    "children": ["product-images"]
+    "children": ["product-images"],
+    "props": {
+      "blockClass": "product__images"
+    }
   },
   "product-images": {
     "props": {
+      "thumbnailsOrientation": "horizontal",
       "zoomMode": "in-place-hover",
       "displayThumbnailsArrows": true
     }

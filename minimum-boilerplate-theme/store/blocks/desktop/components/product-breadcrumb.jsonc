@@ -7,6 +7,9 @@
     "children": ["flex-layout.col#product__breadcrumb"]
   },
   "flex-layout.col#product__breadcrumb": {
+    "props": {
+      "blockClass": "product__breadcrumb"
+    },
     "children": ["breadcrumb"]
   }
 }
