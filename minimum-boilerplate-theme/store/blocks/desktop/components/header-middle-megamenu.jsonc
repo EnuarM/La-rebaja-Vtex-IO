@@ -1,0 +1,19 @@
+{
+  "mega-menu#desktop": {
+    "props": {
+      "title": "",
+      "openOnly": "horizontal"
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["mega-menu-trigger-btn"]
+  },
+  "mega-menu-trigger-btn": {
+    "props": {
+      "Drawer": "drawer"
+    }
+  }
+}

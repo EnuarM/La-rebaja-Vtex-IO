@@ -58,7 +58,8 @@
     "itgloberspartnercl.bullets-diagramation": "0.x"
   },
   "peerDependencies": {
-    "vtex.questions-and-answers": "0.x"
+    "vtex.questions-and-answers": "0.x",
+    "vtex.mega-menu": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -1,0 +1,12 @@
+:global(.vtex-mega-menu-2-x-departmentsTitle) {
+  display: none;
+  
+}
+
+:global(.vtex-mega-menu-2-x-submenuContainerTitle) {
+  display: none;
+}
+
+.submenuList {
+  display: block !important;
+}
