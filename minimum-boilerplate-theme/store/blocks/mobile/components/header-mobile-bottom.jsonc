@@ -7,5 +7,8 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
+  },
+  "drawer#menu-desktop": {
+    
   }
 }

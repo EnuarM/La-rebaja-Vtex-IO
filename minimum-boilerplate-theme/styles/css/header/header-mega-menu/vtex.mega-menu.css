@@ -1,0 +1,19 @@
+/* .vtex-mega-menu-2-x-menuContainer :first-child {
+  color           : red;
+  background-color: blueviolet;
+}
+
+:global(.vtex-mega-menu-2-x-menuItem) {
+  position       : relative;
+  display        : flex;
+  align-items    : center;
+  margin         : 0;
+  justify-content: center;
+  box-sizing     : border-box;
+  height         : 35px;
+} */
+
+:global(.vtex-mega-menu-2-x-departmentsTitle) {
+  display: none;
+  
+}
