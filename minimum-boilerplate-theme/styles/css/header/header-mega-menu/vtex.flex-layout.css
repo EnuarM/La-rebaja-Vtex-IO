@@ -22,17 +22,17 @@
 }
 
 .flexRowContent--header-middle :global(.vtex-mega-menu-2-x-styledLinkContainer) {
-  display                    : flex;
-  align-items                : center;
-  width                      : 90%;
-  text-decoration            : none;
-  color                      : #333;
-  padding                    : 0 14px;
-  height                     : 100%;
-  font-size                  : 12px;
-  font-weight                : 700;
-  border-radius              : 50px;
-  user-select                : none;
+  display        : flex;
+  align-items    : center;
+  width          : 90%;
+  text-decoration: none;
+  color          : #333;
+  padding        : 0 14px;
+  height         : 100%;
+  font-size      : 12px;
+  font-weight    : 700;
+  border-radius  : 50px;
+  user-select    : none;
 }
 
 .flexRowContent--header-middle :global(.vtex-mega-menu-2-x-styledLinkContainer):hover {
@@ -73,9 +73,4 @@
 
 .flexRowContent--header-middle :global(.vtex-mega-menu-2-x-menuItem):hover {
   background-color: transparent;
-}
-
-.flexRowContent--header-middle :global(.vtex-mega-menu-2-x-departmentsTitle) {
-  display: none;
-  
 }
