@@ -131,45 +131,6 @@
     margin-right    : 8px;
 }
 
-/* :global(.vtex-checkbox__line-container) {
-    padding   : 4px 9px;
-}
-
-:global(.vtex-checkbox__container) {
-    align-self: center;
-    margin-right: 12px;
-}
-:global(.vtex-checkbox__inner-container){
-    background: transparent!important;
-    border: 0;
-}
-
-.filter__container--selectedFilters :global(.vtex-checkbox__box-wrapper){
-    border: 0  ;
-}
-:global(.vtex-checkbox__box-wrapper) {
-    border-radius: 2px;
-    border: 2px solid #dd1e2f;
-}
-
-.filter__container--selectedFilters :global(.vtex-checkbox__box) {
-    background-image   : url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icons/icon-close-red___37b357b….svg);
-    background-position: 50%;
-    background-repeat  : no-repeat;
-    background-size    : 80%;
-}
-
-.filter__container--selectedFilters :global(.vtex__icon-check){
-    display: none;
-}
-
-:global(.vtex__icon-check) {
-    color: #dd1e2f;
-    position: relative;
-    left: -0.5px;
-    transform: scale(1.5);
-    stroke: #f5f5f5;
-} */
 
 .filter__container {
     padding: 0 18px;
