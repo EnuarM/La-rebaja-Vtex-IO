@@ -1,7 +1,10 @@
 {
   "flex-layout.row#product__tabs": {
     "title": "Additional Info",
-    "children": ["tab-layout#product__tabs"]
+    "children": ["tab-layout#product__tabs"],
+    "props": {
+      "blockClass": "product__tabs"
+    }
   },
   "tab-layout#product__tabs": {
     "children": [

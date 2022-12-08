@@ -1,0 +1,47 @@
+.flexRow--product__tabs {
+  display        : flex;
+  align-content  : center;
+  justify-content: center;
+  width          : 100%;
+  height         : auto;
+  padding        : 0;
+  margin         : 30px 0 0;
+}
+
+.flexRow--product__tabs :global(.vtex-store-components-3-x-container) {
+  display        : flex;
+  align-content  : center;
+  justify-content: center;
+  width          : 94%;
+  max-width      : 1300px;
+  height         : auto;
+  padding        : 0;
+  margin         : auto;
+}
+
+.flexRow--product__tabs :global(.vtex-store-components-3-x-specificationsTableContainer){
+  margin-top: 50px;
+}
+
+.flexRow--product__tabs :global(.vtex-store-components-3-x-specificationsTitle) {
+  color: #dd1e2f;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.flexRow--product__tabs :global(.vtex-store-components-3-x-specificationsTablePropertyHeading),
+.flexRow--product__tabs :global(.vtex-store-components-3-x-specificationsTableSpecificationHeading) {
+  color: #dd1e2f;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.flexRow--product__tabs :global(.vtex-store-components-3-x-specificationItemProperty),
+.flexRow--product__tabs :global(.vtex-store-components-3-x-specificationItemSpecifications) {
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 16px;
+
+}

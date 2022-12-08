@@ -2,11 +2,15 @@
   "flex-layout.row#product__breadcrumb": {
     "title": "Product Breadcrumb",
     "props": {
+      "blockClass": "breadcrumb",
       "marginTop": 4
     },
     "children": ["flex-layout.col#product__breadcrumb"]
   },
   "flex-layout.col#product__breadcrumb": {
+    "props": {
+      "blockClass": "product__breadcrumb"
+    },
     "children": ["breadcrumb"]
   }
 }
