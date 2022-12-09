@@ -1,0 +1,79 @@
+:global(.vtex-breadcrumb-1-x-container) {
+  display        : flex;
+  align-content  : center;
+  justify-content: flex-start;
+  width          : 100% !important;
+  height         : auto;
+  padding        : 0;
+  margin         : 0 !important;
+  font-size      : 14px;
+  color          : #333;
+  text-transform : lowercase;
+  margin-bottom  : 10px !important;
+}
+
+.caretIcon,
+.homeIcon,
+.termArrow {
+  display: none !important;
+}
+
+.homeLink,
+.link,
+.arrow {
+  display        : flex;
+  align-content  : center;
+  justify-content: center;
+  width          : auto;
+  height         : auto;
+  padding        : 0;
+  margin         : 0;
+}
+
+.homeLink::before {
+  content       : "Inicio";
+  font-family   : Poppins, arial, sans-serif;
+  font-weight   : 600;
+  font-size     : 14px;
+  line-height   : 21px;
+  text-transform: capitalize;
+  color         : #979899;
+}
+
+.homeLink::after {
+  content    : "|";
+  margin     : 0 3px !important;
+  font-family: Poppins, arial, sans-serif;
+  font-weight: 600;
+  font-size  : 14px;
+  line-height: 21px;
+  color      : #979899;
+}
+
+.link {
+  font-family   : Poppins;
+  font-weight   : 500;
+  font-size     : 14px;
+  line-height   : 21px;
+  color         : #979899;
+  text-transform: capitalize;
+}
+
+.arrow::after {
+  content: "|";
+  margin : 0 3px !important;
+}
+
+.term {
+  display    : block;
+  width      : auto;
+  height     : auto;
+  padding    : 0;
+  margin     : 0;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size  : 13px;
+  line-height: 19px;
+  color      : #979899;
+  text-transform:capitalize;
+}

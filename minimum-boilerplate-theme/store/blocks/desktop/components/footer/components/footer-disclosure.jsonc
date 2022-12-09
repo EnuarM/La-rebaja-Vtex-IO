@@ -68,7 +68,7 @@
       "id": "politicas",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/nosotros",
         "tagTitle": "politicas",
         "text": "Políticas y términos de uso"
       }
@@ -80,7 +80,7 @@
       "id": "garantias",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/nosotros",
         "tagTitle": "garantias",
         "text": "Garantías y devoluciones"
       }
@@ -92,7 +92,7 @@
       "id": "retracto",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/nosotros",
         "tagTitle": "retracto",
         "text": "Retracto y reversión"
       }
@@ -116,7 +116,7 @@
       "id": "sic",
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/nosotros",
         "tagTitle": "sic",
         "text": "Superintendencia de industria y comercio SIC"
       }

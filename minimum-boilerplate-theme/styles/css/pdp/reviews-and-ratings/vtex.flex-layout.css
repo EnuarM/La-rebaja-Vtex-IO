@@ -1,0 +1,7 @@
+.flexRow--product__tabs :global(.vtex-reviews-and-ratings-3-x-reviewsRatingAverage),
+.flexRow--product__tabs :global(.vtex-reviews-and-ratings-3-x-reviewsRatingCount),
+.flexRow--product__tabs :global(.vtex-reviews-and-ratings-3-x-reviewDateSubmitted),
+.flexRow--product__tabs :global(.vtex-reviews-and-ratings-3-x-reviewAuthorBy){
+  font-family: Poppins;
+
+}
