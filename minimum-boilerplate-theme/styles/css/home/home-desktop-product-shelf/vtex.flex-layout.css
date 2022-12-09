@@ -16,9 +16,19 @@
   transition   : all .2s ease;
 }
 
+.flexRowContent--buyBlock :global(.vtex-button__label) {
+  font-family: Poppins;
+  color: #dd1e2f;
+  font-weight: 600;
+}
+
 .flexRowContent--buyBlock :global(.vtex-button):hover {
   background-color: #dd1e2f;
-  color           : #fff;
+}
+
+.flexRowContent--buyBlock :global(.vtex-button__label):hover {
+  color: #fff;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 720px) {
