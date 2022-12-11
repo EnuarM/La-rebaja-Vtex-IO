@@ -1,0 +1,83 @@
+@media (min-width: 1025px) {
+  :global(.vtex-search-2-x-biggy-autocomplete) {
+    max-width: 1000px;
+    width    : 100%;
+    left     : unset;
+    right    : calc((min(35vw, 600px) - min(100%, 1000px))/2);
+    transform: none;
+  }
+}
+
+:global(.vtex-search-2-x-biggy-autocomplete) {
+  position     : absolute;
+  transition   : opacity .15s ease-in .05s, max-height .3s ease-out, padding .6s ease-out;
+  padding      : 0;
+  max-height   : 630px;
+  min-height   : 200px;
+  box-shadow   : 0 3px 6px rgb(0 0 0 / 25%);
+  background   : #fff;
+  overflow     : auto;
+  display      : flex;
+  width        : 120%;
+  top          : 16px;
+  border-radius: 20px;
+  right        : calc(-60% + 17vw);
+}
+
+.itemListTitle {
+  font-weight   : 600;
+  font-size     : 16px;
+  line-height   : 24px;
+  color         : #dd1e2f;
+  text-transform: none;
+}
+
+.itemListList {
+  display              : grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap              : 16px;
+  column-gap           : 20px;
+  padding              : 20px !important;
+}
+
+.itemListItem {
+  display        : flex;
+  max-width      : 550px;
+  border         : 1px solid #c1c1c1;
+  box-sizing     : border-box;
+  border-radius  : 20px;
+  justify-content: flex-start;
+  align-items    : center;
+  overflow       : hidden;
+  align-items    : center;
+}
+
+.itemListLink {
+  height     : 50px !important;
+  display    : flex !important;
+  align-items: center;
+  transition : all .2s ease;
+  width      : 100%;
+}
+
+.itemListLink:hover {
+  line-height    : 35px;
+  padding        : 0 20px;
+  font-size      : 13px;
+  text-decoration: none;
+  max-width      : 100%;
+  white-space    : nowrap;
+  text-overflow  : ellipsis;
+  overflow       : hidden;
+}
+
+.itemListPrefix {
+  color       : #dd1e2f;
+  width       : auto;
+  margin-right: 4px;
+  font-weight : 600;
+}
+
+.itemList--history {
+  display: none;
+}
