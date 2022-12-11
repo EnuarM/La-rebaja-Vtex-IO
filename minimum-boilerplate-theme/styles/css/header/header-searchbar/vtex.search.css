@@ -7,6 +7,10 @@
     transform: none;
   }
 }
+:global(.vtex-search-2-x-biggy-js-container--hidden),
+:global(.vtex-search-2-x-biggy-js-container--hidden)::after {
+  visibility: hidden;
+}
 
 :global(.vtex-search-2-x-biggy-autocomplete) {
   position     : absolute;

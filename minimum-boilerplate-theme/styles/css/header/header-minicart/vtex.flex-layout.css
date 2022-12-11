@@ -1,0 +1,35 @@
+.flexRowContent--minicart__footer {
+  display       : flex;
+  flex-direction: column;
+  width         : 100%;
+}
+
+.flexRowContent--minicart__footer :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+.flexRowContent--minicart__footer :global(.vtex-checkout-summary-0-x-summaryItemContainer),
+.flexRowContent--minicart__footer :global(.vtex-checkout-summary-0-x-summaryItemLabel),
+.flexRowContent--minicart__footer :global(.vtex-checkout-summary-0-x-summaryItemPrice) {
+  font-family: Poppins;
+  font-style : normal;
+  font-weight: 700;
+  font-size  : 20px;
+  line-height: 22px;
+  color      : #dd1e2f;
+}
+
+.flexRowContent--minicart__footer :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  font-size: 0;
+}
+
+.flexRowContent--minicart__footer :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer)::after {
+  content    : "Gastos de envío e impuestos calculados al finalizar la compra.";
+  text-align : left;
+  font-weight: 600;
+  font-size  : 13px;
+  line-height: 15px;
+  color      : #1a1919;
+  padding    : 20px;
+  font-family: Poppins;
+}
