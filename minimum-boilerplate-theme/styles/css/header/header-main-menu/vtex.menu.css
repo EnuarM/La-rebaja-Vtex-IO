@@ -1,0 +1,51 @@
+.menuContainer--menu-lvl-one :global(.vtex-menu-2-x-submenuContainer) {
+  /* position  : relative;
+  display   : block;
+  width     : 230px;
+  height    : 100%;
+  padding   : 10px 0;
+  margin    : 0;
+  list-style: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box; */
+  display       : flex;
+  flex-direction: row;
+
+}
+
+.menuContainer--menu-lvl-one :global(.vtex-menu-2-x-menuItem--isOpen) {
+  display: inline-block;
+}
+
+.menuContainer--menu-lvl-one {
+  position        : relative;
+  display         : block;
+  width           : 230px;
+  height          : 100%;
+  padding         : 10px 0;
+  margin          : 0;
+  list-style      : none;
+  overflow-x      : hidden;
+  overflow-y      : auto;
+  box-sizing      : border-box;
+  background-color: aqua;
+  margin-top      : 20px;
+}
+
+.menuContainer--menu-lvl-two {
+  display         : flex;
+  flex-direction: row;
+  vertical-align  : top;
+  width           : -webkit-fit-content;
+  width           : -moz-fit-content;
+  width           : fit-content;
+  overflow        : hidden;
+  background-color: #fff;
+  position        : relative;
+  height          : calc(100vh - 180px);
+  transform       : translateY(2px);
+  left            : 0;
+  z-index         : 10;
+  background-color: greenyellow;
+}
