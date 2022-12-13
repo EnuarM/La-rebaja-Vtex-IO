@@ -1,0 +1,37 @@
+{
+  "flex-layout.col#footer__section-two--input": {
+    "props": {
+      "blockClass": "footer-input-container"
+    },
+    "children": ["newsletter-form#mobile"]
+  },
+  "newsletter-form#mobile": {
+    "props": {
+      "blockClass": "mobile-newsletter-form"
+    },
+    "children": [
+      "newsletter-input-email#footer__mobile",
+      "newsletter-submit#footer__mobile",
+      "flex-layout.row#footer__mobile-politics-data"
+    ]
+  },
+  "newsletter-input-email#footer__mobile": {
+    "props": {
+      "placeholderText": "Correo electrónico",
+      "blockClass": "footer-input-mobile"
+    }
+  },
+  "newsletter-submit#footer__mobile": {
+    "props": {
+      "submitButtonLabel": "Subscribirme"
+    }
+  },
+  "flex-layout.row#footer__mobile-politics-data": {
+    "props": {
+      "blockClass": "footer-mobile-politics",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": false
+    },
+    "children": ["newsletter-checkbox-confirmation", "link#politics-data"]
+  }
+}

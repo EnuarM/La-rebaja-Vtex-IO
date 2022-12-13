@@ -1,0 +1,26 @@
+.flexRow--footer-mobile-newsletter {
+  background-color: #dd1e2f;
+}
+
+.flexRowContent--footer-mobile-newsletter {
+  flex-direction: column;
+  max-width     : 100%;
+  border-radius : 5px 5px 0 0;
+  margin-top    : 5px;
+  width         : 100%;
+}
+
+.flexRowContent--footer-mobile-message {
+  margin-top     : 20px;
+  display        : flex;
+  justify-content: center;
+  text-align     : center;
+}
+
+.flexRow--footer-mobile-message {
+  display       : flex;
+  align-items   : center;
+  padding       : 0 16px;
+  margin        : 0;
+}
+

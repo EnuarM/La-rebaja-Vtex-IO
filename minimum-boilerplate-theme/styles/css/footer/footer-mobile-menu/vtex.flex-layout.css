@@ -1,0 +1,30 @@
+.flexCol--footer-mobile-menu-container {
+  margin         : 20px 0;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  text-align     : center;
+  max-width      : 90vw;
+}
+
+.flexCol--footer-mobile-menu-container :global(.vtex-menu-2-x-menuContainerNav) {
+  max-width: 90vw;
+}
+
+.flexCol--footer-mobile-menu-container :global(.vtex-menu-2-x-menuContainer) {
+  align-items: center;
+}
+
+.flexCol--footer-mobile-menu-container :global(.vtex-menu-2-x-styledLinkContainer) {
+  text-align: center;
+}
+
+.flexCol--footer-mobile-menu-container :global(.vtex-menu-2-x-styledLinkContent) {
+  display    : block;
+  text-align : center;
+  font-style : normal;
+  font-weight: 400;
+  font-size  : 12px;
+  line-height: 18px;
+  color      : #1a1919;
+}
