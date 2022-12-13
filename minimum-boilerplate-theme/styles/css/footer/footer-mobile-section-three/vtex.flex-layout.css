@@ -1,0 +1,16 @@
+.flexRow--footer-mobile-section-three {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  text-align: center;
+}
+.flexRowContent--footer-mobile-section-three {
+  flex-direction : column;
+  max-width      : 90vw;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  flex-wrap      : wrap;
+  margin         : auto;
+}
+

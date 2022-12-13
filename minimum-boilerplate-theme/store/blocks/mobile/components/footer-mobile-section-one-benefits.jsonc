@@ -1,0 +1,68 @@
+{
+  "flex-layout.row#footer__mobile-section-one--benefits": {
+    "title": "Footer benefits",
+    "props": {
+      "blockClass": "footer-mobile-benefits"
+    },
+    "children": ["slider-layout#footer__section-one--benefits"]
+  },
+  "slider-layout#footer__section-one--benefits": {
+    "title": "Slider benefits",
+    "props": {
+      "blockClass": "slider-benefits",
+      "itemsPerPage": {
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "flex-layout.col#footer__section-one--benefits-discounts",
+      "flex-layout.col#footer__section-one--benefits-speed",
+      "flex-layout.col#footer__section-one--benefits-payment",
+      "flex-layout.col#footer__section-one--benefits-shiiping"
+    ]
+  },
+  "flex-layout.col#footer__section-one--benefits-discounts": {
+    "props": {
+      "blockClass": "mobile-container-benefits"
+    },
+    "children": [
+      "image#footer__top--icon-benefits",
+      "rich-text#footer__top--benefits"
+    ]
+
+  },
+  "flex-layout.col#footer__section-one--benefits-speed": {
+    "props": {
+      "blockClass": "mobile-container-benefits"
+    },
+    "children": [
+      "image#footer__top--icon-speed",
+      "rich-text#footer__top--speed"
+    ]
+
+  },
+  "flex-layout.col#footer__section-one--benefits-payment": {
+    "props": {
+      "blockClass": "mobile-container-benefits"
+    },
+    "children": [
+      "image#footer__top--icon-payment",
+      "rich-text#footer__top--payment"
+    ]
+
+  },
+  "flex-layout.col#footer__section-one--benefits-shiiping": {
+    "props": {
+      "blockClass": "mobile-container-benefits"
+    },
+    "children": [
+      "image#footer__top--icon-shipping",
+      "rich-text#footer__top--shipping"
+    ]
+
+  }
+}

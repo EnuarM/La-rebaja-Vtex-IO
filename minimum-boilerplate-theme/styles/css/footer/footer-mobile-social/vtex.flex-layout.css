@@ -1,0 +1,7 @@
+.flexCol--footer-mobile-social-container {
+  max-width: 90vw;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  gap: 20px;
+}
