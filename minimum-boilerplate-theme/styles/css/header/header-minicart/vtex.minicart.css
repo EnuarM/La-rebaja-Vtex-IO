@@ -1,3 +1,16 @@
+@media screen and (min-width:1024px) {
+    .openIconContainer::after {
+        content       : "Mi compra";
+        text-transform: none;
+        color         : #1a1919;
+        font-size     : 16px;
+        position      : relative;
+        align-self    : center;
+        margin-left   : 10px;
+    }
+    
+}
+
 .cartIcon {
     color              : transparent;
     width              : 40px;
@@ -9,15 +22,6 @@
     background-repeat  : no-repeat;
 }
 
-.openIconContainer::after {
-    content       : "Mi compra";
-    text-transform: none;
-    color         : #1a1919;
-    font-size     : 16px;
-    position      : relative;
-    align-self    : center;
-    margin-left   : 10px;
-}
 
 .minicartTitle {
     display: none;
