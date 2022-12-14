@@ -8,8 +8,22 @@
       "preserveLayoutOnMobile": true
     },
     "children": [
-      "flex-layout.col#header-logo", 
-      "flex-layout.col#login-mobile"
+      "flex-layout.col#header-logo",
+      "flex-layout.col#header-logo-cart"
     ]
+  },
+  "flex-layout.col#header-logo-cart": {
+    "children": [
+      "flex-layout.row#header-logo-cart"
+    ]  
+  },
+  "flex-layout.row#header-logo-cart": {
+    "props": {
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": false,
+      "preserveLayoutOnMobile": true
+
+    },
+    "children": ["flex-layout.col#login-mobile", "minicart.v2"]
   }
 }
