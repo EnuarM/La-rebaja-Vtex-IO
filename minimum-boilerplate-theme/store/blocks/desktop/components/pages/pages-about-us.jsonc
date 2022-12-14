@@ -1,23 +1,80 @@
 {
-  "store.custom#construction": {
-    "blocks": ["flex-layout.row#construction"]
+  "store.custom#terminosycondiciones": {
+    "blocks": ["flex-layout.row#terminosycondiciones"]
   },
-  "flex-layout.row#construction": {
-    "children": ["flex-layout.col#construction"]
-  },
-  "flex-layout.col#construction":{
+  "flex-layout.row#terminosycondiciones": {
     "props": {
-      "verticalAlign": "middle"
+      "blockClass": "container-terms"
+    },
+    "children": ["flex-layout.col#terminosycondiciones--menu", "flex-layout.col#terminosycondiciones--text"]
+  },
+  "flex-layout.col#terminosycondiciones--menu":{
+    "props": {
+      "width": "30%",
+      "blockClass": "menu-container-terms"
     },
     "children": [
-      "image#construction"
+      "menu#custom__menu"
     ]
   },
-  "image#construction": {
+  "menu#custom__menu": {
+    "title": "Menu terms",
     "props": {
-      "src": "https://itgloberspartnercl.vteximg.com.br/arquivos/construction.jpg",
-      "alt": "website-under-construction"
+      "orientation": "vertical",
+      "blockClass": "terms-menu"
+    },
+    "children": [
+      "menu-item#terminos",
+      "menu-item#privacidad",
+      "menu-item#campañas",
+      "menu-item#uso",
+      "menu-item#garantias",
+      "menu-item#retracto"
+    ]
+  },
+  "menu-item#terminos": {
+    "props": {
+      "type": "custom",
+      "text": "Términos y condiciones"
     }
+  },
+  "menu-item#privacidad": {
+    "props": {
+      "type": "custom",
+      "text": "Políticas de privacidad"
+    }
+  },
+  "menu-item#campañas": {
+    "props": {
+      "type": "custom",
+      "text": "Políticas de campañas"
+    }
+  },
+  "menu-item#uso": {
+    "props": {
+      "type": "custom",
+      "text": "Términos de uso"
+    }
+  },
+  "menu-item#garantias": {
+    "props": {
+      "type": "custom",
+      "text": "Garantías y devoluciones"
+    }
+  },
+  "menu-item#retracto": {
+    "props": {
+      "type": "custom",
+      "text": "Retracto y reversión"
+    }
+  },
+  "flex-layout.col#terminosycondiciones--text": {
+    "children": [
+      "rich-text#terminosycondiciones"
+    ]
+  },
+  "rich-text#terminosycondiciones": {
+    "title": "Terms text"
   }
   
 }

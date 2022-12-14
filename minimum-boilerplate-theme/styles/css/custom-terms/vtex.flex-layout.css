@@ -1,0 +1,19 @@
+.flexRow--container-terms :global(.vtex-store-components-3-x-container) {
+  padding  : 0;
+  max-width: 1380px;
+  width    : 94%;
+  margin   : auto;
+
+}
+
+.flexRow--container-terms {
+  margin-top: 50px;
+}
+
+
+@media screen and (max-width:1023px) {
+  .flexCol--menu-container-terms {
+    display: none;
+  }
+  
+}
