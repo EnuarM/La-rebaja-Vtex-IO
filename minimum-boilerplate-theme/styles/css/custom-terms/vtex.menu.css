@@ -1,0 +1,33 @@
+.menuContainerNav--terms-menu {
+  padding: 0 60px 0 0;
+}
+
+.menuContainer--terms-menu {
+  flex-direction  : column;
+  background-color: #f5f5f5;
+  border          : 1px solid #e1e1e1;
+  border-radius   : 20px;
+  margin-top      : 40px;
+}
+
+.menuContainer--terms-menu :global(.vtex-menu-2-x-styledLinkContainer) {
+  display        : flex;
+  align-items    : center;
+  border-bottom  : 1px solid #e1e1e1;
+  padding        : 17px 0;
+  font-size      : 18px;
+  position       : relative;
+  margin         : 0 20px;
+  justify-content: space-between;
+}
+
+.menuContainer--terms-menu :global(.vtex-menu-2-x-styledLinkContainer)::after {
+  content            : "";
+  display            : block;
+  width              : 30px;
+  border             : none;
+  min-height         : 40px;
+  background-image   : url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.81/images/icons/icon-arrow-right___20e5d79497ebd8c04ebd8c34a462ac91.svg);
+  background-repeat  : no-repeat;
+  background-position: 50%;
+}
