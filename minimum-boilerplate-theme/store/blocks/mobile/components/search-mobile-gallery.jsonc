@@ -1,5 +1,8 @@
 {
   "flex-layout.row#search__mobile--gallery": {
+    "props": {
+      "blockClass": "search-mobile-gallery"
+    },
     "children": ["search-content#mobile"]
   },
   "search-content#mobile": {
@@ -72,17 +75,17 @@
   },
   "flex-layout.col#search__mobile--list-product-detail": {
     "props": {
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "search-mobile-product-detail"
     },
     "children": [
       "product-summary-brand",
-      "product-summary-name",
+      "product-name",
       "product-selling-price",
       "product-quantity",
-      "add-to-cart-button"
+      "flex-layout.col#listLayout__addToCart"
     ]
   },
-
   "product-summary.shelf#gridLayout": {
     "children": [
       "product-summary-image",

@@ -103,7 +103,8 @@
   },
   "flex-layout.row#product__quantity-selector": {
     "props": {
-      "blockClass": "product__quantity"
+      "blockClass": "product__quantity",
+      "preserveLayoutOnMobile": true
     },
     "children": [
       "flex-layout.col#product__quantity--selector",
