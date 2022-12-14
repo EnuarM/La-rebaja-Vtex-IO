@@ -1,0 +1,22 @@
+.flexRowContent--orderView {
+  align-items    : center;
+  justify-content: flex-end;
+  margin-bottom  : 20px;
+}
+
+.flexRowContent--orderView :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: auto !important;
+}
+
+.flexRow--search-mobile-orderby-filters :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRowContent--search-mobile-orderby-filters {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  border         : 1px solid #e1e1e1;
+  background     : #f5f5f5;
+}
+

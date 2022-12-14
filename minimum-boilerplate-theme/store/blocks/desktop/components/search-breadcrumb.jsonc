@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  }
+}

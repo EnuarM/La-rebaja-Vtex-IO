@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#search__mobile--orderby-filters": {
+    "props": {
+      "blockClass": "search-mobile-orderby-filters"
+    },
+    "children": [
+      "flex-layout.col#search__mobile--orderby",
+      "flex-layout.col#search__mobile--filters"
+    ]
+  },
+  "flex-layout.col#search__mobile--orderby": {
+    "props": {
+      "blockClass": "mobile-orderby"
+    },
+    "children": [
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.col#search__mobile--filters": {
+    "props": {
+      "blockClass": "mobile-filters"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  }
+}

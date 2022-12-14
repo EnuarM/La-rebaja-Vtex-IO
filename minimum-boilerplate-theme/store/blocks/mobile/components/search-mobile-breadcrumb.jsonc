@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#search__mobile--breadcrumb": {
+    "props": {
+      "marginTop": 6,
+      "marginBottom": 7
+    },
+    "children": ["breadcrumb.search#mobile"]
+  },
+  "breadcrumb.search#mobile": {
+    "props": {
+      "showOnMobile": true
+    }
+  }
+}
