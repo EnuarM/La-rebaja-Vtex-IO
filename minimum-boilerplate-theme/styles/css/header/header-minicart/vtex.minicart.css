@@ -3,12 +3,40 @@
         content       : "Mi compra";
         text-transform: none;
         color         : #1a1919;
-        font-size     : 16px;
+        font-size     : 14px;
         position      : relative;
         align-self    : center;
-        margin-left   : 10px;
+        margin-left   : 5px;
+        font-family   : Poppins;
     }
-    
+
+
+}
+
+@media screen and (min-width:768px) {
+    .closeIconButton::before {
+    content     : "Carrito de compras";
+    font-family : Poppins;
+    font-weight : 600;
+    font-size   : 20px;
+    line-height : 30px;
+    color       : #1a1919;
+    text-align  : left;
+    margin-right: 120px;
+}
+}
+
+@media screen and (max-width:767px) {
+    .closeIconButton::before {
+        content     : "Mis compras";
+        font-family : Poppins;
+        font-weight : 600;
+        font-size   : 20px;
+        line-height : 30px;
+        color       : #1a1919;
+        text-align  : left;
+        margin-right: 140px;
+    }
 }
 
 .cartIcon {
@@ -37,16 +65,6 @@
     margin: 3px 0 0 3px;
 }
 
-.closeIconButton::before {
-    content     : "Carrito de compras";
-    font-family : Poppins;
-    font-weight : 600;
-    font-size   : 20px;
-    line-height : 30px;
-    color       : #1a1919;
-    text-align  : left;
-    margin-right: 120px;
-}
 
 .minicartEmptyStateContainer {
     display        : flex;
@@ -126,33 +144,34 @@
 .minicartCheckoutButton :global(.vtex-button__label) {
     font-size: 0;
 }
+
 .minicartCheckoutButton :global(.vtex-button__label)::before {
-    content: "";
-    width: 25px;
-    height: 25px;
-    background: url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.77/images/icons/icon-minicart-btn___1efbe48495f47352c25b179d8d2582dc.svg);
-    background-size: 100%;
+    content          : "";
+    width            : 25px;
+    height           : 25px;
+    background       : url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.77/images/icons/icon-minicart-btn___1efbe48495f47352c25b179d8d2582dc.svg);
+    background-size  : 100%;
     background-repeat: no-repeat;
-    margin-right: 5px;
+    margin-right     : 5px;
 }
 
 .minicartCheckoutButton :global(.vtex-button__label)::after {
-    content: "Finalizar Compra";
+    content       : "Finalizar Compra";
     text-transform: none;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    color: #fff;
-} 
+    font-style    : normal;
+    font-weight   : 600;
+    font-size     : 20px;
+    line-height   : 30px;
+    text-align    : center;
+    color         : #fff;
+}
 
 .minicartQuantityBadgeDefault {
     background-color: #ffd84f;
-    top: 0!important;
-    right: -4px!important;
-    width: 15px;
-    height: 15px;
-    color: #1a1919;
-    font-family: Poppins;
+    top             : 0 !important;
+    right           : -4px !important;
+    width           : 15px;
+    height          : 15px;
+    color           : #1a1919;
+    font-family     : Poppins;
 }

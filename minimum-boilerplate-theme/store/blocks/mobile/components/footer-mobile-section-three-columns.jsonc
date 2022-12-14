@@ -43,8 +43,5 @@
     "children": [
       "rich-text#footer__social-title", "flex-layout.row#footer__social-links"
     ]
-  },
-  "flex-layout.row#footer__social-links": {
-    "children": ["flex-layout.col#footer__social-links"]
   }
 }
