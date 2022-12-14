@@ -23,6 +23,10 @@
   text-transform  : capitalize;
 }
 
+.listItem--item-special-offers {
+  border-radius: 20px !important;
+}
+
 .listItemActive--item-special-offers :global(.vtex-button) {
   border          : 1px solid #dd1e2f;
   background-color: #dd1e2f;

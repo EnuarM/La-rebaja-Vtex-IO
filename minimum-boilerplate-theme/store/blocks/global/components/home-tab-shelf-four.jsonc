@@ -12,19 +12,5 @@
     "props": {
       "category": "10"
     }
-  },
-  "slider-layout#home__shelf-one": {
-    "title": "Shelf one slider",
-    "props": {
-      "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 2
-      },
-      "fullWidth": false,
-      "infinite": true,
-      "showNavigationArrows": "always",
-      "blockClass": "home__shelf-one"
-    }
   }
 }
