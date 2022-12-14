@@ -1,3 +1,9 @@
+@media screen and (max-width:1023px) {
+  .flexRow--product__price-buy :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
+    display: none;
+  }
+}
+
 .flexRow--product__content-desktop {
   display        : flex;
   align-content  : center;
