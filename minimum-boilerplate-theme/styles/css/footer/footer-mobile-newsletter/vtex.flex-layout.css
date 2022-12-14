@@ -1,3 +1,17 @@
+@media screen and (max-width: 767px) {
+
+  .flexRow--footer-mobile-newsletter {
+    background-color: #dd1e2f;
+  }
+
+  .flexRow--footer-mobile-message {
+    display    : flex;
+    align-items: center;
+    padding    : 0 16px;
+    margin     : 0;
+  }
+}
+
 .flexRow--footer-mobile-newsletter {
   background-color: #dd1e2f;
 }
@@ -10,17 +24,17 @@
   width         : 100%;
 }
 
+.flexRowContent--footer-mobile-newsletter :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
 .flexRowContent--footer-mobile-message {
-  margin-top     : 20px;
+  margin         : 25px 15px;
   display        : flex;
   justify-content: center;
   text-align     : center;
 }
 
-.flexRow--footer-mobile-message {
-  display       : flex;
-  align-items   : center;
-  padding       : 0 16px;
-  margin        : 0;
+.flexRow--footer-mobile-politics {
+  margin-bottom: 20px;
 }
-

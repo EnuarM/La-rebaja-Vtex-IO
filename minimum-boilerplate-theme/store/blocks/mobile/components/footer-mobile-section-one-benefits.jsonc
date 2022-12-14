@@ -11,7 +11,7 @@
     "props": {
       "blockClass": "slider-benefits",
       "itemsPerPage": {
-        "tablet": 2,
+        "tablet": 3,
         "phone": 2
       },
       "infinite": true,

@@ -1,20 +1,26 @@
-.flexCol--footer-input-container {
-  display        : flex;
-  justify-content: center;
-  margin         : 15px 10px;
-}
+@media screen and (max-width: 767px) {
 
-.flexRow--footer-mobile-politics {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.flexRowContent--footer-mobile-politics {
-  display       : flex;
-  flex-direction: row;
-}
+  .flexCol--footer-input-container {
+    display        : flex;
+    justify-content: center;
+    margin         : 15px 10px;
+  }
 
-.flexRowContent--footer-mobile-politics :global(.vtex-store-newsletter-1-x-confirmationCheckboxContainer) {
-  margin: 0 5px;
-  padding-right: 10px;
+  .flexRow--footer-mobile-politics {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+  }
+
+  .flexRowContent--footer-mobile-politics {
+    display       : flex;
+    flex-direction: row;
+  }
+
+  .flexRowContent--footer-mobile-politics :global(.vtex-store-newsletter-1-x-confirmationCheckboxContainer) {
+    margin       : 0 5px;
+    padding-right: 10px;
+  }
+
+
 }
