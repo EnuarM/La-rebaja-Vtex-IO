@@ -6,20 +6,6 @@
     width       : 100%;
 }
 
-.flexRowContent--orderView {
-    align-items    : center;
-    justify-content: flex-end;
-    margin-bottom  : 20px;
-}
-
-.flexColChild {
-    height: auto !important;
-}
-
-.flexRowContent--orderView :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-    width: auto !important;
-}
-
 .flexCol--listLayout__addToCart {
     justify-content: center;
     gap            : 10px;
@@ -132,3 +118,7 @@
     color      : #fff;
     font-weight: 600;
 }
+
+
+
+

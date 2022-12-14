@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#search__mobile--gallery-switcher": {
+    "props": {
+      "blockClass": "search-mobile-gallery-switcher"
+    },
+    "children": [
+      "gallery-layout-switcher"
+    ]
+  }
+}

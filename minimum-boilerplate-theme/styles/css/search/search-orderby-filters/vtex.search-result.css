@@ -1,0 +1,140 @@
+
+  .orderByDropdown--orderBy--layout {
+    display    : flex;
+    align-items: center;
+    padding    : 0;
+  }
+
+  .orderByDropdown--orderBy--layout::before {
+    display        : flex;
+    align-items    : center;
+    justify-content: stretch;
+    content        : "Ordenar por:";
+    color          : #333;
+    font-size      : 14px;
+    font-weight    : 400;
+    font-family    : Poppins;
+    line-height    : 19px;
+    text-align     : left;
+    margin         : 0 10px;
+    white-space    : nowrap;
+    text-transform : unset;
+  }
+
+  .orderByButton--orderBy--layout {
+    width          : 205px;
+    height         : 40px;
+    border-radius  : 20px;
+    border         : 1px solid #bdbdbd;
+    padding        : 9px 15px !important;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    text-transform : unset;
+  }
+
+  .orderByText--orderBy--layout {
+    display: none;
+  }
+
+  .filterPopupArrowIcon--orderBy--layout {
+    background         : url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.75/images/icon-select-order___d2f6140….png);
+    background-position: 50%;
+    background-repeat  : no-repeat;
+    background-size    : contain;
+    width              : 20px;
+    height             : 20px;
+    padding            : 0 !important;
+  }
+
+  .filterPopupArrowIcon--orderBy--layout :global(.vtex-search-result-3-x-caretIcon) {
+    display: none;
+  }
+
+  .orderByOptionsContainer {
+    position        : absolute !important;
+    border-radius   : 20px;
+    max-width       : 205px;
+    background-color: #f5f5f5;
+  }
+
+  .filterPopupTitle--orderBy--layout {
+    font-family   : Poppins;
+    text-transform: capitalize;
+    font-size     : 14px;
+    font-weight   : 500;
+    color         : #3f3f40;
+  }
+
+  .orderByOptionItem {
+    font-family     : Poppins;
+    text-transform  : capitalize;
+    font-size       : 14px;
+    font-weight     : 500;
+    color           : #3f3f40;
+    background-color: #f5f5f5;
+    margin-right    : 10px;
+  }
+
+  .orderByOptionItem:hover {
+    background-color: #dd1e2f;
+    color           : #fff;
+  }
+
+  .orderByOptionItem:first-child {
+    border-top-left-radius : 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .orderByOptionItem:last-child {
+    border-bottom-left-radius : 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .orderByOptionItem--selected {
+    background: #dd1e2f !important;
+    color     : #fff !important;
+  }
+
+
+
+.searchResultContainer--search-result-mobile {
+  padding: 0;
+}
+
+
+
+
+@media screen and (max-width:767px) {
+
+  .orderBy--layout {
+    display        : flex;
+    justify-content: center;
+    width          : 100%;
+    height         : 100%;
+    border-right   : 1px solid #e1e1e1;
+  }
+
+  .orderByDropdown--orderBy--layout {
+    display        : flex;
+    align-items    : stretch;
+    justify-content: stretch;
+    width          : 100%;
+    height         : auto;
+    margin         : 0;
+    padding        : 0;
+  }
+
+  .orderByButton--orderBy--layout {
+    width  : auto;
+    padding: 10px !important;
+    display: grid;
+    grid-template-areas:
+      "orderby icon"
+      "title icon";
+    align-items: center;
+    height     : auto;
+    margin     : 0 5px;
+  }
+
+}
