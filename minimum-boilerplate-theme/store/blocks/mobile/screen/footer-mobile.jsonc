@@ -1,0 +1,9 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer__mobile-section-one--benefits",
+      "flex-layout.row#footer__mobile-section-two--newsletter",
+      "flex-layout.row#footer__mobile-section-three-columns"
+    ]
+  }
+}

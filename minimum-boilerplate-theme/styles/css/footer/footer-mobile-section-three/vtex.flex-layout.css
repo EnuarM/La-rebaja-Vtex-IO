@@ -1,0 +1,45 @@
+@media screen and (max-width: 767px) {
+
+  .flexRow--footer-mobile-section-three {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    text-align: center;
+  }
+  .flexRowContent--footer-mobile-section-three {
+    flex-direction : column;
+    max-width      : 90vw;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-wrap      : wrap;
+    margin         : auto;
+  }
+}
+
+
+.flexRow--footer-mobile-section-three {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  text-align: center;
+  width: auto;
+}
+
+.flexRowContent--footer-mobile-section-three {
+  flex-direction : column;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  flex-wrap      : wrap;
+  margin         : auto;
+}
+
+.flexRow--footer-mobile-section-three :global(.vtex-store-components-3-x-container) {
+  width: 100%;
+}
+
+.flexRow--footer-mobile-section-three :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+
+}

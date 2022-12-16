@@ -1,0 +1,144 @@
+{}
+  // "drawer": {
+  //   "props": {
+  //     "blockClass": "menu-drawer"
+  //   },
+  //   "children": [
+  //     "menu#header__main-menu"
+  //   ],
+  //   "blocks": ["drawer-trigger"]
+  // },
+  
+  // "drawer-trigger": {
+  //   "children": ["rich-text#open-drawer"]
+  // },
+  
+  // "rich-text#open-drawer": {
+  //   "props": {
+  //     "text": "Open"
+  //   }
+  // },
+//   "menu#drawer": {
+//     "children":["menu-item#trigger"]
+//   },
+//   "menu-item#trigger": {
+//     "props": {
+//       "type": "custom",
+//       "text": "X"
+//     },
+//     "blocks": ["submenu#drawer-content"]
+//   },
+//   "submenu#drawer-content": {
+//     "children": ["menu#header__main-menu"]
+//   },
+//   "menu#header__main-menu": {
+//     "children": [
+//       "menu-item#category-one",
+//       "menu-item#category-two"
+//     ],
+//     "props": {
+//       "orientation": "vertical",
+//       "blockClass": "menu-lvl-one"
+//     }
+//   },
+//   "menu-item#category-one": {
+//     "props": {
+//       "type": "custom",
+//       "itemProps": {
+//         "text": "Drogueria"
+//       }
+//     },
+//     "blocks": ["submenu#category-one"]
+//   },
+//   "menu-item#category-two": {
+//     "props": {
+//       "type": "custom",
+//       "text": "Maternidad y Bebes"
+//     }
+//   },
+//   "submenu#category-one": {
+//     "props": {
+//       "orientation": "vertical"
+//     },
+//     "children": [
+//       "menu#level-two"
+//     ]
+//   },
+//   "menu#level-two": {
+//     "children":[
+//       "menu-item#dolor"
+//     ],
+//     "props": {
+//       "blockClass": "menu-lvl-two"
+//     }
+//   },
+//   "menu-item#dolor": {
+//     "blocks": [
+//       "submenu#dolor-fiebre",
+//       "submenu#dolor-fuerte",
+//       "submenu#dolor-general",
+//       "submenu#dolor-muscular",
+//       "submenu#dolor-abdominal",
+//       "submenu#dolor-migraña"
+
+//     ],
+//     "props": {
+//       "type": "custom",
+//       "text": "Dolor e inflamacion"
+//     }
+//   },
+//   "submenu#dolor-fiebre": {
+//     "children": ["menu-item#dolor-fiebre"]
+//   },
+//   "submenu#dolor-fuerte": {
+//     "children": ["menu-item#dolor-fuerte"]
+//   },
+//   "submenu#dolor-general": {
+//     "children": ["menu-item#dolor-general"]
+//   },
+//   "submenu#dolor-muscular": {
+//     "children": ["menu-item#dolor-muscular"]
+//   },
+//   "submenu#dolor-abdominal": {
+//     "children": ["menu-item#dolor-abdominal"]
+//   },
+//   "submenu#dolor-migraña": {
+//     "children": ["menu-item#dolor-migraña"]
+//   },
+//   "menu-item#dolor-fiebre": {
+//     "props": {
+//       "type": "custom",
+//       "text": "Dolor fiebre niños"
+//     }
+//   },
+//   "menu-item#dolor-fuerte": {
+//     "props": {
+//       "type": "custom",
+//       "text": "Dolor fuerte"
+//     }
+//   },
+//   "menu-item#dolor-general": {
+//     "props": {
+//       "type": "custom",
+//       "text": "Dolor general"
+//     }
+//   },
+//   "menu-item#dolor-muscular": {
+//     "props": {
+//       "type": "custom",
+//       "text": "Dolor muscular"
+//     }
+//   },
+//   "menu-item#dolor-abdominal": {
+//     "props": {
+//       "type": "custom",
+//       "text": "Dolor abdominal y colicos"
+//     }
+//   },
+//   "menu-item#dolor-migraña": {
+//     "props": {
+//       "type": "custom",
+//       "text": "Migraña"
+//     }
+//   }
+// }

@@ -1,0 +1,40 @@
+{
+  "store.not-found#pages": {
+    "blocks": ["flex-layout.row#not-found__pages"]
+  },
+  "flex-layout.row#not-found__pages": {
+    "children": ["flex-layout.col#not-found__pages"]
+  },
+  "flex-layout.col#not-found__pages": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": ["image#not-found__pages"]
+  },
+  "image#not-found__pages": {
+    "props": {
+      "src": "https://itgloberspartnercl.vteximg.com.br/arquivos/404-not-found.gif",
+      "alt": "image-404-pages"
+    }
+  },
+  "store.not-found#product": {
+    "blocks": ["flex-layout.row#not-found__product"]
+  },
+  "flex-layout.row#not-found__product": {
+    "children": ["flex-layout.col#not-found__product"]
+  },
+  "flex-layout.col#not-found__product": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#not-found__product"]
+  },
+  "image#not-found__product": {
+    "props": {
+      "src": "https://itgloberspartnercl.vteximg.com.br/arquivos/product-not-found.png",
+      "alt": "image-product-not-found"
+    }
+  }
+}

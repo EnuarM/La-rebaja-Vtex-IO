@@ -1,0 +1,14 @@
+{
+  "search-result-layout.mobile": {
+    "props": {
+      "blockClass": "search-result-mobile"
+    },
+    "children": [
+      "flex-layout.row#search__mobile--breadcrumb",
+      "flex-layout.row#search__mobile--total-products",
+      "flex-layout.row#search__mobile--orderby-filters",
+      "flex-layout.row#search__mobile--gallery-switcher",
+      "flex-layout.row#search__mobile--gallery"
+    ]
+  }  
+}

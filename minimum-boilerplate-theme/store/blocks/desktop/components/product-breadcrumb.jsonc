@@ -12,5 +12,10 @@
       "blockClass": "product__breadcrumb"
     },
     "children": ["breadcrumb"]
+  },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
   }
 }

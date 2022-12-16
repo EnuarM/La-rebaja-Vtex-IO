@@ -1,5 +1,5 @@
 {
-  "gallery": {
+  "gallery#desktop": {
     "props": {
       "layouts": [
         {
@@ -7,7 +7,7 @@
           "component": "GridSummary",
           "itemsPerRow": {
             "desktop": 4,
-            "tablet": 3,
+            "tablet": 2,
             "phone": 2
           }
         },

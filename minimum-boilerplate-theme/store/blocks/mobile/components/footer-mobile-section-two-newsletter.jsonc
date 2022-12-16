@@ -1,0 +1,11 @@
+{
+  "flex-layout.row#footer__mobile-section-two--newsletter": {
+    "props": {
+      "blockClass": "footer-mobile-newsletter"
+    },
+    "children": [
+      "flex-layout.col#footer__section-two--newsletter",
+      "flex-layout.col#footer__section-two--input"
+    ]
+  }
+}

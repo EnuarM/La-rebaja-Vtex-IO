@@ -1,0 +1,51 @@
+.overlay--menu-drawer--visible {
+  display         : block;
+  background-color: rgba(0, 0, 0, .7);
+  position        : fixed;
+  width           : 100vw;
+  height          : 100vh;
+  left            : 0;
+  top             : 0;
+  /* z-index         : -1; */
+}
+
+.closeIconContainer--menu-drawer {
+  display: none;
+}
+
+.drawer--menu-drawer {
+  position     : absolute !important;
+  display      : block;
+  width        : fit-content;
+  height       : fit-content;
+  max-height   : calc(100vh - 120px);
+  max-width    : 91vw;
+  overflow-y   : hidden;
+  overflow-x   : auto;
+  white-space  : nowrap;
+  margin-top   : 16px;
+  border-radius: 5px;
+  transition   : left .2s ease-in-out;
+}
+
+.opened--menu-drawer {
+  position: absolute !important;
+  z-index : 999;
+  left    : 600px;
+  top     : 100px;
+  width: fit-content !important;
+  min-width: fit-content !important;
+}
+
+.childrenContainer--menu-drawer {
+  display         : inline-block;
+  vertical-align  : top;
+  width           : fit-content !important;
+  overflow        : hidden;
+  background-color: #fff;
+  position        : relative;
+  height          : calc(100vh - 180px);
+  transform       : translateY(2px);
+  left            : 0;
+  z-index         : 10;
+}

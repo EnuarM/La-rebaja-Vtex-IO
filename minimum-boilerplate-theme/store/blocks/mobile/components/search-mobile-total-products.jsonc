@@ -1,0 +1,7 @@
+{
+  "flex-layout.row#search__mobile--total-products": {
+    "children": [
+      "total-products.v2"
+    ]
+  }
+}

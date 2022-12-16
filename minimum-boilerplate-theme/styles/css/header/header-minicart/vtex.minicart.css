@@ -1,0 +1,177 @@
+@media screen and (min-width:1024px) {
+    .openIconContainer::after {
+        content       : "Mi compra";
+        text-transform: none;
+        color         : #1a1919;
+        font-size     : 14px;
+        position      : relative;
+        align-self    : center;
+        margin-left   : 5px;
+        font-family   : Poppins;
+    }
+
+
+}
+
+@media screen and (min-width:768px) {
+    .closeIconButton::before {
+    content     : "Carrito de compras";
+    font-family : Poppins;
+    font-weight : 600;
+    font-size   : 20px;
+    line-height : 30px;
+    color       : #1a1919;
+    text-align  : left;
+    margin-right: 120px;
+}
+}
+
+@media screen and (max-width:767px) {
+    .closeIconButton::before {
+        content     : "Mis compras";
+        font-family : Poppins;
+        font-weight : 600;
+        font-size   : 20px;
+        line-height : 30px;
+        color       : #1a1919;
+        text-align  : left;
+        margin-right: 140px;
+    }
+}
+
+.cartIcon {
+    color              : transparent;
+    width              : 40px;
+    min-width          : 40px;
+    height             : 40px;
+    background-image   : url("https://itgloberspartnercl.vteximg.com.br/arquivos/icon-cart.svg");
+    background-size    : 100%;
+    background-position: 50%;
+    background-repeat  : no-repeat;
+}
+
+
+.minicartTitle {
+    display: none;
+}
+
+.closeIconContainer {
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.closeIconButton {
+    color : #dd1e2f;
+    margin: 3px 0 0 3px;
+}
+
+
+.minicartEmptyStateContainer {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .5) !important;
+}
+
+:global(.vtex-product-list-0-x-productBrandName) {
+    font-family   : Poppins;
+    font-style    : normal;
+    font-weight   : 700;
+    font-size     : 13px;
+    line-height   : 16px;
+    color         : #333;
+    text-transform: capitalize;
+}
+
+:global(.vtex-product-list-0-x-productName) {
+    font-family  : Poppins;
+    font-style   : normal;
+    font-weight  : 500;
+    font-size    : 12px;
+    line-height  : 16px;
+    color        : #727273;
+    margin-bottom: 2px;
+}
+
+:global(.vtex-product-list-0-x-price) {
+    font-family: Poppins;
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 20px;
+    line-height: 22px;
+    color      : #dd1e2f;
+}
+
+:global(.vtex-product-list-0-x-removeButton) {
+    cursor         : pointer;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    position       : absolute;
+    border-radius  : 50%;
+    width          : 26px;
+    height         : 26px;
+    background     : rgba(221, 30, 47, .1);
+    right          : 50px;
+    margin         : auto;
+    color          : rgba(114, 114, 115, .5);
+    padding        : 0;
+    border         : none;
+}
+
+:global(.vtex-product-list-0-x-removeButton)::before {
+    content          : "";
+    background-image : url(https://copservir.vtexassets.com/_v/public/assets/v1/published/copservir.larebaja-theme@0.0.77/public/react/abda4e7e497a2c73d7f50dcdf816e8bc.svg);
+    background-repeat: no-repeat;
+    width            : 14px;
+    height           : 14px;
+    display          : block;
+    background-size  : 14px;
+}
+
+:global(.vtex-product-list-0-x-deleteIcon) {
+    display: none;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+    border-radius: 20px;
+    transition   : all .2s ease-in-out;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+    font-size: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::before {
+    content          : "";
+    width            : 25px;
+    height           : 25px;
+    background       : url(https://copservir.vtexassets.com/assets/vtex/assets-builder/copservir.larebaja-theme/0.0.77/images/icons/icon-minicart-btn___1efbe48495f47352c25b179d8d2582dc.svg);
+    background-size  : 100%;
+    background-repeat: no-repeat;
+    margin-right     : 5px;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::after {
+    content       : "Finalizar Compra";
+    text-transform: none;
+    font-style    : normal;
+    font-weight   : 600;
+    font-size     : 20px;
+    line-height   : 30px;
+    text-align    : center;
+    color         : #fff;
+}
+
+.minicartQuantityBadgeDefault {
+    background-color: #ffd84f;
+    top             : 0 !important;
+    right           : -4px !important;
+    width           : 15px;
+    height          : 15px;
+    color           : #1a1919;
+    font-family     : Poppins;
+}

@@ -1,0 +1,39 @@
+.flexCol--mobile-container-benefits {
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: center;
+  width          : 150px;
+}
+
+
+.flexCol--mobile-container-benefits :global(.vtex-rich-text-0-x-heading) {
+  padding    : 0 5px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-style : normal;
+  font-weight: 600;
+  font-size  : 16px;
+  line-height: 24px;
+  text-align : center;
+  color      : #1a1919;
+}
+
+.flexCol--mobile-container-benefits :global(.vtex-rich-text-0-x-container) {
+  margin-left: 0;
+}
+
+.flexRow--footer-mobile-benefits :global(.vtex-slider-layout-0-x-sliderTrackContainer) {
+  width : 100%;
+  margin: 50px 40px 0;
+}
+
+.flexRow--footer-mobile-benefits :global(.vtex-slider-layout-0-x-sliderArrows--slider-benefits) {
+  color           : red;
+  width           : 35px;
+  height          : 35px;
+  background-color: #fff !important;
+  border-radius   : 50%;
+  box-shadow      : 0 5px 5px rgb(0 0 0 / 25%);
+  overflow        : hidden;
+  padding         : 0;
+}

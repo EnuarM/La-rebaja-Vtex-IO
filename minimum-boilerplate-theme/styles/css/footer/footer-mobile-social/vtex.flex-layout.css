@@ -1,0 +1,16 @@
+@media screen and (max-width: 767px) {
+  .flexCol--footer-mobile-social-container {
+    max-width  : 90vw;
+    display    : flex;
+    align-items: center;
+    margin     : 20px 0;
+    gap        : 20px;
+  }
+}
+
+.flexCol--footer-mobile-social-container {
+  display    : flex;
+  align-items: center;
+  margin     : 20px 0;
+  gap        : 20px;
+}

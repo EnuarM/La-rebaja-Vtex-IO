@@ -1,0 +1,8 @@
+{
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#breadcrumb",
+      "flex-layout.row#desktop__search--view"
+    ]
+  }  
+}

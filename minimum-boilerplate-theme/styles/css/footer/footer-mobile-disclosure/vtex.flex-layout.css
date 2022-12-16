@@ -1,0 +1,33 @@
+@media screen and (max-width: 767px) {
+  .flexCol--footer-mobile-disclosure-container {
+    max-width: 90vw;
+  }
+
+  .flexCol--footer-mobile-disclosure-container :global(.vtex-disclosure-layout-1-x-trigger) {
+    padding: 0;
+  }
+
+  .flexCol--footer-mobile-disclosure-container :global(.vtex-rich-text-0-x-headingLevel4) {
+    font-size: 14px;
+  }
+
+  .flexCol--footer-mobile-disclosure-container :global(.vtex-menu-2-x-menuContainerNav) {
+    padding: 5px;
+  }
+
+  .flexCol--footer-mobile-disclosure-container :global(.vtex-menu-2-x-styledLinkContainer) {
+    margin-left: 0;
+  }
+
+  .flexCol--footer-mobile-disclosure-container :global(.vtex-menu-2-x-styledLinkContent) {
+    margin         : 0;
+    font-size      : 12px !important;
+    text-decoration: none;
+    color          : #333;
+    transition     : all .2s ease;
+  }
+}
+
+.flexCol--footer-mobile-disclosure-container {
+  width: 100% !important;
+}

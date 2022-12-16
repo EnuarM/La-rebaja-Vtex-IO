@@ -1,3 +1,17 @@
+@media screen and (max-width:1023px) {
+  .flexRow--product__price-buy :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
+    display: none;
+  }
+
+  .flexRowContent--product__quantity {
+    display: inline-table;
+  }
+
+  .flexCol--product__info {
+    padding-left: 0 !important;
+  }
+}
+
 .flexRow--product__content-desktop {
   display        : flex;
   align-content  : center;
