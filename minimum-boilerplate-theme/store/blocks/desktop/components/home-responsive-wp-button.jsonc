@@ -1,0 +1,15 @@
+{
+  "responsive-layout.desktop#home__wp-button": {
+    "title": "Whatsapp Button",
+    "children": ["whatsapp-button"]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/wp-icon.png",
+      "phone": "777777777",
+      "message": "VTEX ES LO MEJOR",
+      "width": 70,
+      "height": 70
+    }
+  }
+}
